@@ -109,24 +109,58 @@ void testStudent(){
 
 }
 
+void testStudentPerson(){
+
+    Person *person = [[Person alloc] init];
+    person->_age1 = 9;
+    NSLog(@"person - %zd", class_getInstanceSize([Person class]));
+    NSLog(@"person - %zd", malloc_size((__bridge const void *)person));
+    
+    Student *stu = [[Student alloc] init];
+    stu->_age1 = 9;
+    stu->_no = 4;
+    stu->_age = 5;
+    NSLog(@"stu - %zd", class_getInstanceSize([Student class]));
+    NSLog(@"stu - %zd", malloc_size((__bridge const void *)stu));
+    
+    
+    NSLog(@"test");
+}
+
+//struct Person_IMPL {
+//    struct NSObject_IMPL NSObject_IVARS;
+//    int _age1;
+//};
+
+void testInstance(){
+    Person *object1 = [[Person alloc]init];
+    object1->_age1 = 8;
+    Person *object2 = [[Person alloc]init];
+    object2->_age1 = 9;
+    NSLog(@"object1:%@------object2:%@",object1,object2);
+}
+
+void testClass(){
+    NSObject *object1 = [[NSObject alloc]init];
+    NSObject *object2 = [[NSObject alloc]init];
+    Class objectClass1 = [object1 class];
+    Class objectClass2 = [object2 class];
+    Class objectClass3 = [NSObject class];
+    Class objectClass4 = object_getClass(object1);//Runtime API
+    Class objectClass5 = object_getClass(object2);//RunTime API
+    
+    NSLog(@"object1:%@",object1);
+    NSLog(@"object2:%@",object2);
+    NSLog(@"objectClass1:%p",objectClass1);
+    NSLog(@"objectClass2:%p",objectClass2);
+    NSLog(@"objectClass3:%p",objectClass3);
+    NSLog(@"objectClass4:%p",objectClass4);
+    NSLog(@"objectClass5:%p",objectClass5);
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        
-//
-//        Person *person = [[Person alloc] init];
-//        person->_age1 = 9;
-//        NSLog(@"person - %zd", class_getInstanceSize([Person class]));
-//        NSLog(@"person - %zd", malloc_size((__bridge const void *)person));
-        
-        Student *stu = [[Student alloc] init];
-        stu->_age1 = 9;
-        stu->_no = 4;
-        stu->_age = 5;
-        NSLog(@"stu - %zd", class_getInstanceSize([Student class]));
-        NSLog(@"stu - %zd", malloc_size((__bridge const void *)stu));
-
-
-        NSLog(@"test");
-}
+    }
     return 0;
 }

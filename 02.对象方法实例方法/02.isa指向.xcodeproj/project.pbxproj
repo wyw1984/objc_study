@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0734899A226F3D400049C293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07348999226F3D400049C293 /* main.m */; };
+		072944742277130A008397A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072944732277130A008397A0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		07348994226F3D400049C293 /* CopyFiles */ = {
+		0729446E2277130A008397A0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,16 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07348996226F3D400049C293 /* 01.OC对象的本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01.OC对象的本质"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07348999226F3D400049C293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		073489A0226F3DFA0049C293 /* main-arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
-		073489A1226F4C9E0049C293 /* mainStudent-arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mainStudent-arm64.cpp"; sourceTree = "<group>"; };
-		073489A2226FF6420049C293 /* mainStudentExtentPerson-arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mainStudentExtentPerson-arm64.cpp"; sourceTree = "<group>"; };
-		073489B322714C780049C293 /* mainInstance-arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "mainInstance-arm64.cpp"; sourceTree = "<group>"; };
+		072944702277130A008397A0 /* 02.isa指向 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02.isa指向"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072944732277130A008397A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07348993226F3D400049C293 /* Frameworks */ = {
+		0729446D2277130A008397A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,98 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0734898D226F3D400049C293 = {
+		072944672277130A008397A0 = {
 			isa = PBXGroup;
 			children = (
-				07348998226F3D400049C293 /* 01.OC对象的本质 */,
-				07348997226F3D400049C293 /* Products */,
+				072944722277130A008397A0 /* 02.isa指向 */,
+				072944712277130A008397A0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		07348997226F3D400049C293 /* Products */ = {
+		072944712277130A008397A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07348996226F3D400049C293 /* 01.OC对象的本质 */,
+				072944702277130A008397A0 /* 02.isa指向 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07348998226F3D400049C293 /* 01.OC对象的本质 */ = {
+		072944722277130A008397A0 /* 02.isa指向 */ = {
 			isa = PBXGroup;
 			children = (
-				073489B322714C780049C293 /* mainInstance-arm64.cpp */,
-				073489A2226FF6420049C293 /* mainStudentExtentPerson-arm64.cpp */,
-				073489A1226F4C9E0049C293 /* mainStudent-arm64.cpp */,
-				073489A0226F3DFA0049C293 /* main-arm64.cpp */,
-				07348999226F3D400049C293 /* main.m */,
+				072944732277130A008397A0 /* main.m */,
 			);
-			path = "01.OC对象的本质";
+			path = "02.isa指向";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07348995226F3D400049C293 /* 01.OC对象的本质 */ = {
+		0729446F2277130A008397A0 /* 02.isa指向 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0734899D226F3D400049C293 /* Build configuration list for PBXNativeTarget "01.OC对象的本质" */;
+			buildConfigurationList = 072944772277130A008397A0 /* Build configuration list for PBXNativeTarget "02.isa指向" */;
 			buildPhases = (
-				07348992226F3D400049C293 /* Sources */,
-				07348993226F3D400049C293 /* Frameworks */,
-				07348994226F3D400049C293 /* CopyFiles */,
+				0729446C2277130A008397A0 /* Sources */,
+				0729446D2277130A008397A0 /* Frameworks */,
+				0729446E2277130A008397A0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "01.OC对象的本质";
-			productName = "01.OC对象的本质";
-			productReference = 07348996226F3D400049C293 /* 01.OC对象的本质 */;
+			name = "02.isa指向";
+			productName = "02.对象方法实例方法";
+			productReference = 072944702277130A008397A0 /* 02.isa指向 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0734898E226F3D400049C293 /* Project object */ = {
+		072944682277130A008397A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = songlin;
 				TargetAttributes = {
-					07348995226F3D400049C293 = {
+					0729446F2277130A008397A0 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 07348991226F3D400049C293 /* Build configuration list for PBXProject "01.OC对象的本质" */;
+			buildConfigurationList = 0729446B2277130A008397A0 /* Build configuration list for PBXProject "02.isa指向" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0734898D226F3D400049C293;
-			productRefGroup = 07348997226F3D400049C293 /* Products */;
+			mainGroup = 072944672277130A008397A0;
+			productRefGroup = 072944712277130A008397A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07348995226F3D400049C293 /* 01.OC对象的本质 */,
+				0729446F2277130A008397A0 /* 02.isa指向 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07348992226F3D400049C293 /* Sources */ = {
+		0729446C2277130A008397A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0734899A226F3D400049C293 /* main.m in Sources */,
+				072944742277130A008397A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0734899B226F3D400049C293 /* Debug */ = {
+		072944752277130A008397A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		0734899C226F3D400049C293 /* Release */ = {
+		072944762277130A008397A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +236,7 @@
 			};
 			name = Release;
 		};
-		0734899E226F3D400049C293 /* Debug */ = {
+		072944782277130A008397A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -252,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		0734899F226F3D400049C293 /* Release */ = {
+		072944792277130A008397A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -263,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07348991226F3D400049C293 /* Build configuration list for PBXProject "01.OC对象的本质" */ = {
+		0729446B2277130A008397A0 /* Build configuration list for PBXProject "02.isa指向" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0734899B226F3D400049C293 /* Debug */,
-				0734899C226F3D400049C293 /* Release */,
+				072944752277130A008397A0 /* Debug */,
+				072944762277130A008397A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0734899D226F3D400049C293 /* Build configuration list for PBXNativeTarget "01.OC对象的本质" */ = {
+		072944772277130A008397A0 /* Build configuration list for PBXNativeTarget "02.isa指向" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0734899E226F3D400049C293 /* Debug */,
-				0734899F226F3D400049C293 /* Release */,
+				072944782277130A008397A0 /* Debug */,
+				072944792277130A008397A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0734898E226F3D400049C293 /* Project object */;
+	rootObject = 072944682277130A008397A0 /* Project object */;
 }
