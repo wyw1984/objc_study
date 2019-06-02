@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SLPerson.h"
 
 /*
  struct __block_impl {
@@ -65,7 +66,18 @@ struct __block_impl {
 struct __main_block_impl_0 {
     struct __block_impl impl;
     struct __main_block_desc_0 *Desc;
-    int age;
+//    int age;
+    struct __Block_byref_age_0 *age;
+
+};
+
+//0x102802f10
+struct __Block_byref_age_0 {
+    void *__isa;//8
+    struct __Block_byref_age_0 *__forwarding;//8 0x102802f18
+    int __flags;//4 0x102802f20
+    int __size;//4 0x102802f24
+    int age;//0x102800a28
 };
 
 //初步认识
@@ -129,23 +141,23 @@ void test4MRC()
 }
 
 //模拟ARC
-void test4()
-{
-    
-    // NSStackBlock
-    int age = 10;
-    block4 = [^{
-        NSLog(@"block4---------%d", age);
-    } copy];
-    NSLog(@"block4%@",[block4 class]);
-//    NSLog(@"block4%@",[[block4 class] superclass]);
-//    NSLog(@"block4%@",[[[block4 class] superclass]superclass]);
-//    NSLog(@"block4%@",[[[[block4 class] superclass]superclass]superclass]);
-    
-    //MRC模式下需要release，因为copy到堆中了
-    [block4 release];
-
-}
+//void test4()
+//{
+//    
+//    // NSStackBlock
+//    int age = 10;
+//    block4 = [^{
+//        NSLog(@"block4---------%d", age);
+//    } copy];
+//    NSLog(@"block4%@",[block4 class]);
+////    NSLog(@"block4%@",[[block4 class] superclass]);
+////    NSLog(@"block4%@",[[[block4 class] superclass]superclass]);
+////    NSLog(@"block4%@",[[[[block4 class] superclass]superclass]superclass]);
+//    
+//    //MRC模式下需要release，因为copy到堆中了
+//    [block4 release];
+//
+//}
 void test4ARC()
 {
     // NSMallocBlock
@@ -190,6 +202,62 @@ void test5()
 
 int age = 10;
 
+typedef void (^SLBlock)(void);
+
+
+SLBlock myBlock()
+{
+    int age1 = 10;
+    return ^{
+        NSLog(@"--------%d",age);
+    };
+}
+
+
+void test6(){
+    SLBlock slblock;
+    {
+        
+        __block int age = 10;
+        NSLog(@"block前%p",&age);
+        slblock = [^{
+            //                age = 20;
+            NSLog(@"block 内age的值---------%d", age);
+            NSLog(@"block内%p",&age);
+        } copy];
+        //这个时候访问栈上面的age的指针，发现和block内age的指针一样，说明栈上面的age->forwarding指针->age 找到的就是堆上面的age的变量的值，也就是说这个时候栈上面的forwarding指针指向堆上面的地址，堆上面的forwarding指向的是堆本身地址，所以c++源码之所以用val->forwarding->val 都能访问到正确的值
+        NSLog(@"block外%p",&age);
+        age = 30;
+        slblock();
+        NSLog(@"block 内age的值-------------：%d",age);
+        
+    }
+}
+
+void test7(){
+    __block int age = 10;
+    
+    SLBlock block = ^{
+        age = 20;
+        NSLog(@"age is %d", age);
+    };
+    
+    struct __main_block_impl_0 *blockImpl = (__bridge struct __main_block_impl_0 *)block;
+    
+    NSLog(@"blockImpl:%@",blockImpl);
+    NSLog(@"%p", &age);
+
+    
+}
+
+void test8(){
+    SLPerson *person = [[SLPerson alloc]init];
+    person.age = 10;
+    __weak SLPerson *weakPerson = person;
+    person.block = ^{
+        NSLog(@"-------%d",weakPerson.age);
+    };
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -204,8 +272,8 @@ int main(int argc, const char * argv[]) {
 //        test4MRC();
 //        block4();
         //malloc
-        test4();
-        block4();
+//        test4();
+//        block4();
 
         
 //        test5();
@@ -216,8 +284,24 @@ int main(int argc, const char * argv[]) {
 //        NSLog(@"栈：a %p", &a);
 //        NSLog(@"堆：obj %p", [[NSObject alloc] init]);
 //        NSLog(@"数据段：class %p", [MJPerson class]);
-
-       
+        
+        //block copy 情况
+        //1.作为返回参数
+//        SLBlock block = myBlock();
+//        block();
+//        NSLog(@"%@",[block class]);
+        
+        
+        //证明block 中的fowarding作用
+//        test6();
+        //证明age的地址是结构体的地址还是变量的地址
+//        test7();
+        
+        //循环引用
+        test8();
     }
+    //和test8 一起使用
+    //如果执行到这里,说明大括号执行完毕了，person对象应该是被释放的
+    NSLog(@"测试循环引用");
     return 0;
 }

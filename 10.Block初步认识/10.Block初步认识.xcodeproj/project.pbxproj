@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0746C29C227F2B4500F86D99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0746C29B227F2B4500F86D99 /* main.m */; };
+		07FF008B22A258070070F653 /* SLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF008A22A258070070F653 /* SLPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		0746C2A322800BCA00F86D99 /* mainauto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainauto.cpp; sourceTree = "<group>"; };
 		0746C2A422800F3C00F86D99 /* mainglobal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainglobal.cpp; sourceTree = "<group>"; };
 		0746C2A52280196300F86D99 /* blockStyle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blockStyle.cpp; sourceTree = "<group>"; };
+		07FF008922A258070070F653 /* SLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLPerson.h; sourceTree = "<group>"; };
+		07FF008A22A258070070F653 /* SLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				0746C2A422800F3C00F86D99 /* mainglobal.cpp */,
 				0746C2A2227F2EC100F86D99 /* main.cpp */,
 				0746C29B227F2B4500F86D99 /* main.m */,
+				07FF008922A258070070F653 /* SLPerson.h */,
+				07FF008A22A258070070F653 /* SLPerson.m */,
 			);
 			path = "10.Block初步认识";
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0746C29C227F2B4500F86D99 /* main.m in Sources */,
+				07FF008B22A258070070F653 /* SLPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +253,7 @@
 		0746C2A0227F2B4500F86D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -256,7 +262,7 @@
 		0746C2A1227F2B4500F86D99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
