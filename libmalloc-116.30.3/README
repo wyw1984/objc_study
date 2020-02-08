@@ -1,0 +1,2 @@
+直接从官方源码中下载，将其他target删除，只剩下libmalloc，编译即可通过，然后再添加测试target即可
+https://www.jianshu.com/p/cb1b573a0297

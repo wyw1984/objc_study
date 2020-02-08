@@ -1438,6 +1438,7 @@ internal_check(void)
 	malloc_check_start += malloc_check_each;
 }
 
+//malloc是我们经常使用的函数，这里也是libmalloc.dylib暴露出来的接口
 void *
 malloc_zone_malloc(malloc_zone_t *zone, size_t size)
 {
@@ -1451,6 +1452,7 @@ malloc_zone_malloc(malloc_zone_t *zone, size_t size)
 		return NULL;
 	}
 
+	//因为传递进来是default_zone_malloc，所以这里就是调用default_zone_malloc 函数 240行
 	ptr = zone->malloc(zone, size);		// if lite zone is passed in then we still call the lite methods
 
 	
@@ -1724,6 +1726,7 @@ malloc(size_t size)
 	return retval;
 }
 
+//size 传递进来需要的对象内存值
 void *
 calloc(size_t num_items, size_t size)
 {

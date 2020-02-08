@@ -280,6 +280,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07ED812023EE970F00FA62AA /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		084F5E831D50204F006CD296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		088C4D731D1AEFB5005C6B36 /* radix_tree_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radix_tree_internal.h; sourceTree = "<group>"; };
 		088C4D741D1AEFB5005C6B36 /* radix_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radix_tree.c; sourceTree = "<group>"; };
@@ -631,6 +632,7 @@
 		3FFC1BE416A908F800027192 = {
 			isa = PBXGroup;
 			children = (
+				07ED812023EE970F00FA62AA /* ReadMe */,
 				3FE91FF716A90BEF00D1238A /* include */,
 				3FE91FC816A90A8D00D1238A /* man */,
 				C9571C381C18AA0A00A67EE3 /* private */,
@@ -1003,6 +1005,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3FFC1BE416A908F800027192;

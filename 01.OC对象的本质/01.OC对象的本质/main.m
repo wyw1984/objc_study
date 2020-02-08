@@ -55,12 +55,12 @@ void testObj(){
 
 
 //源码中可以得到mainStudent-arm64 这个是Student继承NSObject的时候
-//struct Student_IMPL {
-////    struct NSObject_IMPL NSObject_IVARS;
-//    Class isa;
-//    int _no;
-//    int _age;
-//};
+struct Student_IMPL {
+//    struct NSObject_IMPL NSObject_IVARS;
+    Class isa;
+    int _no;
+    int _age;
+};
 
 //源码中可以得到mainStudentExtentPerson-arm64 这个是Student继承Person的时候
 //struct Student_IMPL {
@@ -98,14 +98,14 @@ void testObj(){
 
 
 void testStudent(){
-//    Student *stu = [[Student alloc]init];
-//    stu->_no = 4;
-//    stu->_age = 5;
-//    NSLog(@"%zd", class_getInstanceSize([Student class]));
-//    NSLog(@"%zd", malloc_size((__bridge const void *)stu));
+    Student *stu = [[Student alloc]init];
+    stu->_no = 4;
+    stu->_age = 5;
+    NSLog(@"%zd", class_getInstanceSize([Student class]));
+    NSLog(@"%zd", malloc_size((__bridge const void *)stu));
     
-//    struct Student_IMPL *stuImpl = (__bridge struct Student_IMPL *)stu;
-//    NSLog(@"no is %d, age is %d", stuImpl->_no, stuImpl->_age);
+    struct Student_IMPL *stuImpl = (__bridge struct Student_IMPL *)stu;
+    NSLog(@"no is %d, age is %d", stuImpl->_no, stuImpl->_age);
 
 }
 
@@ -160,7 +160,8 @@ void testClass(){
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-       
+//        testStudent();
+        testStudentPerson();
     }
     return 0;
 }
