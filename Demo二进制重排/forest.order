@@ -1,0 +1,4 @@
+_main
++[AppDelegate load]
++[ViewController load]
+-[ViewController viewDidLoad]
