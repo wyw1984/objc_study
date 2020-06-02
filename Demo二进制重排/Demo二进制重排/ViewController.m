@@ -14,6 +14,8 @@
 #import <dlfcn.h>
 #import <libkern/OSAtomic.h>
 
+#import "SMCallTrace.h"
+
 @interface ViewController ()
 
 @end
@@ -39,6 +41,8 @@ void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {
     OSAtomicEnqueue(&symbolList, node, offsetof(SYNode, next));
 //
 }
+
+//https://blog.csdn.net/pjk1129/article/details/44779831  OSAtomicDequeue 是不加锁的filo(first in last out)的队列
 
 void createOrderFile(){
  
@@ -71,7 +75,7 @@ void createOrderFile(){
     //将数组变成字符串
     NSString * funcStr = [funcs  componentsJoinedByString:@"\n"];
  
-    NSString * filePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"hank.order"];
+    NSString * filePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"forest.order"];
     NSData * fileContents = [funcStr dataUsingEncoding:NSUTF8StringEncoding];
     [[NSFileManager defaultManager] createFileAtPath:filePath contents:fileContents attributes:nil];
     NSLog(@"%@",funcStr);
@@ -132,7 +136,10 @@ void createOrderFile(){
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    for (int i = 0; i < 1000; i++) {
+        UIButton *button = [[UIButton alloc]init];
+        button.tag = i;
+    }
 }
 
 void(^block1)(void) = ^(void) {

@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
-
+#import "SMCallTrace.h"
+#import "ViewController.h"
+#import "TimeProfiler.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//       [SMCallTrace startWithMaxDepth:10];
+    [[TimeProfiler shareInstance] TPStartTrace:"AppDelegate"];
+    //      [[TimeProfiler shareInstance] TPStartTrace:"大卡页的viewDidLoad函数"];
+        // Do any additional setup after loading the view.
+    UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+//
+//        [SMCallTrace stop];
+//         [SMCallTrace save];
+    
+    [[TimeProfiler shareInstance] TPStopTrace];
     return YES;
 }
 
