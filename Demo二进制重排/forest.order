@@ -1,13 +1,18 @@
-+[AppDelegate load]
-+[ViewController load]
 _main
 -[AppDelegate application:didFinishLaunchingWithOptions:]
+_recordLauanchTime
 -[AppDelegate application:configurationForConnectingSceneSession:options:]
 -[SceneDelegate window]
 -[SceneDelegate setWindow:]
+_recordEndGameTime
 -[SceneDelegate scene:willConnectToSession:options:]
 -[ViewController viewDidLoad]
 -[SceneDelegate sceneWillEnterForeground:]
 -[SceneDelegate sceneDidBecomeActive:]
+_smCallTraceStart
+_smCallConfigMinTime
+_smGetCallRecords
+_smClearCallRecords
 -[ViewController touchesBegan:withEvent:]
 _createOrderFile
++[SMCallStack load]
