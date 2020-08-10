@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BA8B982484E70100F8CCC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8B972484E70100F8CCC4 /* AppDelegate.m */; };
+		18BA8B9B2484E70100F8CCC4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8B9A2484E70100F8CCC4 /* SceneDelegate.m */; };
+		18BA8B9E2484E70100F8CCC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8B9D2484E70100F8CCC4 /* ViewController.m */; };
+		18BA8BA12484E70100F8CCC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA8B9F2484E70100F8CCC4 /* Main.storyboard */; };
+		18BA8BA32484E70400F8CCC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BA8BA22484E70400F8CCC4 /* Assets.xcassets */; };
+		18BA8BA62484E70400F8CCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA8BA42484E70400F8CCC4 /* LaunchScreen.storyboard */; };
+		18BA8BA92484E70400F8CCC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8BA82484E70400F8CCC4 /* main.m */; };
+		18BA8CA8248611CF00F8CCC4 /* SMCallStackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C8D248611CF00F8CCC4 /* SMCallStackModel.m */; };
+		18BA8CA9248611CF00F8CCC4 /* SMLagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C90248611CF00F8CCC4 /* SMLagButton.m */; };
+		18BA8CAA248611CF00F8CCC4 /* SMLagDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C91248611CF00F8CCC4 /* SMLagDB.m */; };
+		18BA8CAB248611CF00F8CCC4 /* SMCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C93248611CF00F8CCC4 /* SMCPUMonitor.m */; };
+		18BA8CAC248611CF00F8CCC4 /* SMCallTraceTimeCostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C98248611CF00F8CCC4 /* SMCallTraceTimeCostModel.m */; };
+		18BA8CAD248611CF00F8CCC4 /* SMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C9B248611CF00F8CCC4 /* SMLagMonitor.m */; };
+		18BA8CAE248611CF00F8CCC4 /* SMCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C9C248611CF00F8CCC4 /* SMCallTrace.m */; };
+		18BA8CAF248611CF00F8CCC4 /* SMStackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C9E248611CF00F8CCC4 /* SMStackCell.m */; };
+		18BA8CB0248611CF00F8CCC4 /* SMStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8C9F248611CF00F8CCC4 /* SMStackViewController.m */; };
+		18BA8CB1248611CF00F8CCC4 /* SMCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CA0248611CF00F8CCC4 /* SMCallStack.m */; };
+		18BA8CB2248611CF00F8CCC4 /* SMClsCallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CA3248611CF00F8CCC4 /* SMClsCallCell.m */; };
+		18BA8CB3248611CF00F8CCC4 /* SMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CA4248611CF00F8CCC4 /* SMCallTraceCore.c */; };
+		18BA8CB4248611CF00F8CCC4 /* SMCallLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CA5248611CF00F8CCC4 /* SMCallLib.m */; };
+		18BA8CB5248611CF00F8CCC4 /* SMClsCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CA7248611CF00F8CCC4 /* SMClsCallViewController.m */; };
+		18BA8CD12486529100F8CCC4 /* TPRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CBC2486529100F8CCC4 /* TPRecordCell.m */; };
+		18BA8CD22486529100F8CCC4 /* hookObjcMsgSend-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CBE2486529100F8CCC4 /* hookObjcMsgSend-arm64.s */; };
+		18BA8CD32486529100F8CCC4 /* UIWindow+CallRecordShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC02486529100F8CCC4 /* UIWindow+CallRecordShake.m */; };
+		18BA8CD42486529100F8CCC4 /* TPCallTrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC22486529100F8CCC4 /* TPCallTrace.c */; };
+		18BA8CD52486529100F8CCC4 /* TPRecordHierarchyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC32486529100F8CCC4 /* TPRecordHierarchyModel.m */; };
+		18BA8CD62486529100F8CCC4 /* TPMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC42486529100F8CCC4 /* TPMainVC.m */; };
+		18BA8CD72486529100F8CCC4 /* TPRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC52486529100F8CCC4 /* TPRecordModel.m */; };
+		18BA8CD82486529100F8CCC4 /* TimeProfilerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC72486529100F8CCC4 /* TimeProfilerVC.m */; };
+		18BA8CD92486529100F8CCC4 /* TPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CC92486529100F8CCC4 /* TPModel.m */; };
+		18BA8CDA2486529100F8CCC4 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CCB2486529100F8CCC4 /* fishhook.c */; };
+		18BA8CDB2486529100F8CCC4 /* TimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8CCD2486529100F8CCC4 /* TimeProfiler.m */; };
+		18BA8CDC2486529100F8CCC4 /* TPExpandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA8CCF2486529100F8CCC4 /* TPExpandIcon.png */; };
+		18BA8CDD2486529100F8CCC4 /* TPNOExpandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA8CD02486529100F8CCC4 /* TPNOExpandIcon.png */; };
+		90BB9402763C677CE96FB649 /* Pods_DemoBinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E79B71466E275B062FB5BB6 /* Pods_DemoBinary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BA8B932484E70100F8CCC4 /* DemoBinary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoBinary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA8B962484E70100F8CCC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18BA8B972484E70100F8CCC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18BA8B992484E70100F8CCC4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18BA8B9A2484E70100F8CCC4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18BA8B9C2484E70100F8CCC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18BA8B9D2484E70100F8CCC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BA8BA02484E70100F8CCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BA8BA22484E70400F8CCC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BA8BA52484E70400F8CCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BA8BA72484E70400F8CCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA8BA82484E70400F8CCC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BA8BAF2484FA0F00F8CCC4 /* Guard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guard.h; sourceTree = "<group>"; };
+		18BA8C8C248611CF00F8CCC4 /* SMStackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStackCell.h; sourceTree = "<group>"; };
+		18BA8C8D248611CF00F8CCC4 /* SMCallStackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallStackModel.m; sourceTree = "<group>"; };
+		18BA8C8E248611CF00F8CCC4 /* SMCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTrace.h; sourceTree = "<group>"; };
+		18BA8C8F248611CF00F8CCC4 /* SMLagMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagMonitor.h; sourceTree = "<group>"; };
+		18BA8C90248611CF00F8CCC4 /* SMLagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagButton.m; sourceTree = "<group>"; };
+		18BA8C91248611CF00F8CCC4 /* SMLagDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagDB.m; sourceTree = "<group>"; };
+		18BA8C92248611CF00F8CCC4 /* SMCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallStack.h; sourceTree = "<group>"; };
+		18BA8C93248611CF00F8CCC4 /* SMCPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCPUMonitor.m; sourceTree = "<group>"; };
+		18BA8C94248611CF00F8CCC4 /* SMStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStackViewController.h; sourceTree = "<group>"; };
+		18BA8C95248611CF00F8CCC4 /* SMCallTraceCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceCore.h; sourceTree = "<group>"; };
+		18BA8C96248611CF00F8CCC4 /* SMClsCallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMClsCallCell.h; sourceTree = "<group>"; };
+		18BA8C97248611CF00F8CCC4 /* SMClsCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMClsCallViewController.h; sourceTree = "<group>"; };
+		18BA8C98248611CF00F8CCC4 /* SMCallTraceTimeCostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallTraceTimeCostModel.m; sourceTree = "<group>"; };
+		18BA8C99248611CF00F8CCC4 /* SMCallLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallLib.h; sourceTree = "<group>"; };
+		18BA8C9A248611CF00F8CCC4 /* SMLagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagButton.h; sourceTree = "<group>"; };
+		18BA8C9B248611CF00F8CCC4 /* SMLagMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagMonitor.m; sourceTree = "<group>"; };
+		18BA8C9C248611CF00F8CCC4 /* SMCallTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallTrace.m; sourceTree = "<group>"; };
+		18BA8C9D248611CF00F8CCC4 /* SMCallStackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallStackModel.h; sourceTree = "<group>"; };
+		18BA8C9E248611CF00F8CCC4 /* SMStackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStackCell.m; sourceTree = "<group>"; };
+		18BA8C9F248611CF00F8CCC4 /* SMStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStackViewController.m; sourceTree = "<group>"; };
+		18BA8CA0248611CF00F8CCC4 /* SMCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallStack.m; sourceTree = "<group>"; };
+		18BA8CA1248611CF00F8CCC4 /* SMCPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCPUMonitor.h; sourceTree = "<group>"; };
+		18BA8CA2248611CF00F8CCC4 /* SMLagDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagDB.h; sourceTree = "<group>"; };
+		18BA8CA3248611CF00F8CCC4 /* SMClsCallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMClsCallCell.m; sourceTree = "<group>"; };
+		18BA8CA4248611CF00F8CCC4 /* SMCallTraceCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMCallTraceCore.c; sourceTree = "<group>"; };
+		18BA8CA5248611CF00F8CCC4 /* SMCallLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallLib.m; sourceTree = "<group>"; };
+		18BA8CA6248611CF00F8CCC4 /* SMCallTraceTimeCostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceTimeCostModel.h; sourceTree = "<group>"; };
+		18BA8CA7248611CF00F8CCC4 /* SMClsCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMClsCallViewController.m; sourceTree = "<group>"; };
+		18BA8CB72486529100F8CCC4 /* TimeProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeProfiler.h; sourceTree = "<group>"; };
+		18BA8CB92486529100F8CCC4 /* TPRecordHierarchyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordHierarchyModel.h; sourceTree = "<group>"; };
+		18BA8CBA2486529100F8CCC4 /* TPCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCallTrace.h; sourceTree = "<group>"; };
+		18BA8CBB2486529100F8CCC4 /* TPMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPMainVC.h; sourceTree = "<group>"; };
+		18BA8CBC2486529100F8CCC4 /* TPRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordCell.m; sourceTree = "<group>"; };
+		18BA8CBD2486529100F8CCC4 /* TPRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordModel.h; sourceTree = "<group>"; };
+		18BA8CBE2486529100F8CCC4 /* hookObjcMsgSend-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "hookObjcMsgSend-arm64.s"; sourceTree = "<group>"; };
+		18BA8CBF2486529100F8CCC4 /* TPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPModel.h; sourceTree = "<group>"; };
+		18BA8CC02486529100F8CCC4 /* UIWindow+CallRecordShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CallRecordShake.m"; sourceTree = "<group>"; };
+		18BA8CC12486529100F8CCC4 /* TimeProfilerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeProfilerVC.h; sourceTree = "<group>"; };
+		18BA8CC22486529100F8CCC4 /* TPCallTrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCallTrace.c; sourceTree = "<group>"; };
+		18BA8CC32486529100F8CCC4 /* TPRecordHierarchyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordHierarchyModel.m; sourceTree = "<group>"; };
+		18BA8CC42486529100F8CCC4 /* TPMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPMainVC.m; sourceTree = "<group>"; };
+		18BA8CC52486529100F8CCC4 /* TPRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecordModel.m; sourceTree = "<group>"; };
+		18BA8CC62486529100F8CCC4 /* TPRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecordCell.h; sourceTree = "<group>"; };
+		18BA8CC72486529100F8CCC4 /* TimeProfilerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeProfilerVC.m; sourceTree = "<group>"; };
+		18BA8CC82486529100F8CCC4 /* UIWindow+CallRecordShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CallRecordShake.h"; sourceTree = "<group>"; };
+		18BA8CC92486529100F8CCC4 /* TPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPModel.m; sourceTree = "<group>"; };
+		18BA8CCB2486529100F8CCC4 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		18BA8CCC2486529100F8CCC4 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		18BA8CCD2486529100F8CCC4 /* TimeProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeProfiler.m; sourceTree = "<group>"; };
+		18BA8CCF2486529100F8CCC4 /* TPExpandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TPExpandIcon.png; sourceTree = "<group>"; };
+		18BA8CD02486529100F8CCC4 /* TPNOExpandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TPNOExpandIcon.png; sourceTree = "<group>"; };
+		2E79B71466E275B062FB5BB6 /* Pods_DemoBinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoBinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C2EC579CF6D710F039DCF /* Pods-Demo二进制重排.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo二进制重排.release.xcconfig"; path = "Target Support Files/Pods-Demo二进制重排/Pods-Demo二进制重排.release.xcconfig"; sourceTree = "<group>"; };
+		6A04209E71D89FD84974CC05 /* Pods-Demo二进制重排.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo二进制重排.debug.xcconfig"; path = "Target Support Files/Pods-Demo二进制重排/Pods-Demo二进制重排.debug.xcconfig"; sourceTree = "<group>"; };
+		7A14171CC65C8561BF2B8126 /* Pods-DemoBinary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBinary.debug.xcconfig"; path = "Target Support Files/Pods-DemoBinary/Pods-DemoBinary.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9159921CC84846535DEFE1 /* Pods-DemoBinary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBinary.release.xcconfig"; path = "Target Support Files/Pods-DemoBinary/Pods-DemoBinary.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BA8B902484E70100F8CCC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BB9402763C677CE96FB649 /* Pods_DemoBinary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA8B8A2484E70100F8CCC4 = {
+			isa = PBXGroup;
+			children = (
+				18BA8B952484E70100F8CCC4 /* Demo二进制重排 */,
+				18BA8B942484E70100F8CCC4 /* Products */,
+				2B3BDD8E7A93565BCAF3DD95 /* Pods */,
+				3439CA7037E59ABC2230644B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BA8B942484E70100F8CCC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8B932484E70100F8CCC4 /* DemoBinary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BA8B952484E70100F8CCC4 /* Demo二进制重排 */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8CB62486529100F8CCC4 /* TimeProfiler */,
+				18BA8C8A248611CF00F8CCC4 /* Lib */,
+				18BA8B962484E70100F8CCC4 /* AppDelegate.h */,
+				18BA8B972484E70100F8CCC4 /* AppDelegate.m */,
+				18BA8B992484E70100F8CCC4 /* SceneDelegate.h */,
+				18BA8B9A2484E70100F8CCC4 /* SceneDelegate.m */,
+				18BA8B9C2484E70100F8CCC4 /* ViewController.h */,
+				18BA8B9D2484E70100F8CCC4 /* ViewController.m */,
+				18BA8B9F2484E70100F8CCC4 /* Main.storyboard */,
+				18BA8BA22484E70400F8CCC4 /* Assets.xcassets */,
+				18BA8BA42484E70400F8CCC4 /* LaunchScreen.storyboard */,
+				18BA8BA72484E70400F8CCC4 /* Info.plist */,
+				18BA8BA82484E70400F8CCC4 /* main.m */,
+				18BA8BAF2484FA0F00F8CCC4 /* Guard.h */,
+			);
+			path = "Demo二进制重排";
+			sourceTree = "<group>";
+		};
+		18BA8C8A248611CF00F8CCC4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8C8B248611CF00F8CCC4 /* SMLagMonitor */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		18BA8C8B248611CF00F8CCC4 /* SMLagMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8C8C248611CF00F8CCC4 /* SMStackCell.h */,
+				18BA8C8D248611CF00F8CCC4 /* SMCallStackModel.m */,
+				18BA8C8E248611CF00F8CCC4 /* SMCallTrace.h */,
+				18BA8C8F248611CF00F8CCC4 /* SMLagMonitor.h */,
+				18BA8C90248611CF00F8CCC4 /* SMLagButton.m */,
+				18BA8C91248611CF00F8CCC4 /* SMLagDB.m */,
+				18BA8C92248611CF00F8CCC4 /* SMCallStack.h */,
+				18BA8C93248611CF00F8CCC4 /* SMCPUMonitor.m */,
+				18BA8C94248611CF00F8CCC4 /* SMStackViewController.h */,
+				18BA8C95248611CF00F8CCC4 /* SMCallTraceCore.h */,
+				18BA8C96248611CF00F8CCC4 /* SMClsCallCell.h */,
+				18BA8C97248611CF00F8CCC4 /* SMClsCallViewController.h */,
+				18BA8C98248611CF00F8CCC4 /* SMCallTraceTimeCostModel.m */,
+				18BA8C99248611CF00F8CCC4 /* SMCallLib.h */,
+				18BA8C9A248611CF00F8CCC4 /* SMLagButton.h */,
+				18BA8C9B248611CF00F8CCC4 /* SMLagMonitor.m */,
+				18BA8C9C248611CF00F8CCC4 /* SMCallTrace.m */,
+				18BA8C9D248611CF00F8CCC4 /* SMCallStackModel.h */,
+				18BA8C9E248611CF00F8CCC4 /* SMStackCell.m */,
+				18BA8C9F248611CF00F8CCC4 /* SMStackViewController.m */,
+				18BA8CA0248611CF00F8CCC4 /* SMCallStack.m */,
+				18BA8CA1248611CF00F8CCC4 /* SMCPUMonitor.h */,
+				18BA8CA2248611CF00F8CCC4 /* SMLagDB.h */,
+				18BA8CA3248611CF00F8CCC4 /* SMClsCallCell.m */,
+				18BA8CA4248611CF00F8CCC4 /* SMCallTraceCore.c */,
+				18BA8CA5248611CF00F8CCC4 /* SMCallLib.m */,
+				18BA8CA6248611CF00F8CCC4 /* SMCallTraceTimeCostModel.h */,
+				18BA8CA7248611CF00F8CCC4 /* SMClsCallViewController.m */,
+			);
+			path = SMLagMonitor;
+			sourceTree = "<group>";
+		};
+		18BA8CB62486529100F8CCC4 /* TimeProfiler */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8CB72486529100F8CCC4 /* TimeProfiler.h */,
+				18BA8CB82486529100F8CCC4 /* Core */,
+				18BA8CCA2486529100F8CCC4 /* fishhook */,
+				18BA8CCD2486529100F8CCC4 /* TimeProfiler.m */,
+				18BA8CCE2486529100F8CCC4 /* icon */,
+			);
+			path = TimeProfiler;
+			sourceTree = "<group>";
+		};
+		18BA8CB82486529100F8CCC4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8CB92486529100F8CCC4 /* TPRecordHierarchyModel.h */,
+				18BA8CBA2486529100F8CCC4 /* TPCallTrace.h */,
+				18BA8CBB2486529100F8CCC4 /* TPMainVC.h */,
+				18BA8CBC2486529100F8CCC4 /* TPRecordCell.m */,
+				18BA8CBD2486529100F8CCC4 /* TPRecordModel.h */,
+				18BA8CBE2486529100F8CCC4 /* hookObjcMsgSend-arm64.s */,
+				18BA8CBF2486529100F8CCC4 /* TPModel.h */,
+				18BA8CC02486529100F8CCC4 /* UIWindow+CallRecordShake.m */,
+				18BA8CC12486529100F8CCC4 /* TimeProfilerVC.h */,
+				18BA8CC22486529100F8CCC4 /* TPCallTrace.c */,
+				18BA8CC32486529100F8CCC4 /* TPRecordHierarchyModel.m */,
+				18BA8CC42486529100F8CCC4 /* TPMainVC.m */,
+				18BA8CC52486529100F8CCC4 /* TPRecordModel.m */,
+				18BA8CC62486529100F8CCC4 /* TPRecordCell.h */,
+				18BA8CC72486529100F8CCC4 /* TimeProfilerVC.m */,
+				18BA8CC82486529100F8CCC4 /* UIWindow+CallRecordShake.h */,
+				18BA8CC92486529100F8CCC4 /* TPModel.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18BA8CCA2486529100F8CCC4 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8CCB2486529100F8CCC4 /* fishhook.c */,
+				18BA8CCC2486529100F8CCC4 /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		18BA8CCE2486529100F8CCC4 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				18BA8CCF2486529100F8CCC4 /* TPExpandIcon.png */,
+				18BA8CD02486529100F8CCC4 /* TPNOExpandIcon.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		2B3BDD8E7A93565BCAF3DD95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A04209E71D89FD84974CC05 /* Pods-Demo二进制重排.debug.xcconfig */,
+				410C2EC579CF6D710F039DCF /* Pods-Demo二进制重排.release.xcconfig */,
+				7A14171CC65C8561BF2B8126 /* Pods-DemoBinary.debug.xcconfig */,
+				DE9159921CC84846535DEFE1 /* Pods-DemoBinary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3439CA7037E59ABC2230644B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E79B71466E275B062FB5BB6 /* Pods_DemoBinary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BA8B922484E70100F8CCC4 /* DemoBinary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA8BAC2484E70400F8CCC4 /* Build configuration list for PBXNativeTarget "DemoBinary" */;
+			buildPhases = (
+				F5F8E4B49CC299753A773535 /* [CP] Check Pods Manifest.lock */,
+				18BA8B8F2484E70100F8CCC4 /* Sources */,
+				18BA8B902484E70100F8CCC4 /* Frameworks */,
+				18BA8B912484E70100F8CCC4 /* Resources */,
+				6025DF9851B8335152249808 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoBinary;
+			productName = "Demo二进制重排";
+			productReference = 18BA8B932484E70100F8CCC4 /* DemoBinary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BA8B8B2484E70100F8CCC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18BA8B922484E70100F8CCC4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 18BA8B8E2484E70100F8CCC4 /* Build configuration list for PBXProject "DemoBinary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BA8B8A2484E70100F8CCC4;
+			productRefGroup = 18BA8B942484E70100F8CCC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BA8B922484E70100F8CCC4 /* DemoBinary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BA8B912484E70100F8CCC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA8CDD2486529100F8CCC4 /* TPNOExpandIcon.png in Resources */,
+				18BA8CDC2486529100F8CCC4 /* TPExpandIcon.png in Resources */,
+				18BA8BA62484E70400F8CCC4 /* LaunchScreen.storyboard in Resources */,
+				18BA8BA32484E70400F8CCC4 /* Assets.xcassets in Resources */,
+				18BA8BA12484E70100F8CCC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6025DF9851B8335152249808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBinary/Pods-DemoBinary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBinary/Pods-DemoBinary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBinary/Pods-DemoBinary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F8E4B49CC299753A773535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoBinary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BA8B8F2484E70100F8CCC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA8B982484E70100F8CCC4 /* AppDelegate.m in Sources */,
+				18BA8CAE248611CF00F8CCC4 /* SMCallTrace.m in Sources */,
+				18BA8CD32486529100F8CCC4 /* UIWindow+CallRecordShake.m in Sources */,
+				18BA8CAB248611CF00F8CCC4 /* SMCPUMonitor.m in Sources */,
+				18BA8B9E2484E70100F8CCC4 /* ViewController.m in Sources */,
+				18BA8CB2248611CF00F8CCC4 /* SMClsCallCell.m in Sources */,
+				18BA8CD52486529100F8CCC4 /* TPRecordHierarchyModel.m in Sources */,
+				18BA8BA92484E70400F8CCC4 /* main.m in Sources */,
+				18BA8CB3248611CF00F8CCC4 /* SMCallTraceCore.c in Sources */,
+				18BA8CAC248611CF00F8CCC4 /* SMCallTraceTimeCostModel.m in Sources */,
+				18BA8B9B2484E70100F8CCC4 /* SceneDelegate.m in Sources */,
+				18BA8CA9248611CF00F8CCC4 /* SMLagButton.m in Sources */,
+				18BA8CD12486529100F8CCC4 /* TPRecordCell.m in Sources */,
+				18BA8CB4248611CF00F8CCC4 /* SMCallLib.m in Sources */,
+				18BA8CD42486529100F8CCC4 /* TPCallTrace.c in Sources */,
+				18BA8CB5248611CF00F8CCC4 /* SMClsCallViewController.m in Sources */,
+				18BA8CB1248611CF00F8CCC4 /* SMCallStack.m in Sources */,
+				18BA8CDB2486529100F8CCC4 /* TimeProfiler.m in Sources */,
+				18BA8CAD248611CF00F8CCC4 /* SMLagMonitor.m in Sources */,
+				18BA8CD22486529100F8CCC4 /* hookObjcMsgSend-arm64.s in Sources */,
+				18BA8CD72486529100F8CCC4 /* TPRecordModel.m in Sources */,
+				18BA8CD82486529100F8CCC4 /* TimeProfilerVC.m in Sources */,
+				18BA8CA8248611CF00F8CCC4 /* SMCallStackModel.m in Sources */,
+				18BA8CDA2486529100F8CCC4 /* fishhook.c in Sources */,
+				18BA8CD92486529100F8CCC4 /* TPModel.m in Sources */,
+				18BA8CAF248611CF00F8CCC4 /* SMStackCell.m in Sources */,
+				18BA8CB0248611CF00F8CCC4 /* SMStackViewController.m in Sources */,
+				18BA8CAA248611CF00F8CCC4 /* SMLagDB.m in Sources */,
+				18BA8CD62486529100F8CCC4 /* TPMainVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BA8B9F2484E70100F8CCC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA8BA02484E70100F8CCC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BA8BA42484E70400F8CCC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA8BA52484E70400F8CCC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BA8BAA2484E70400F8CCC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BA8BAB2484E70400F8CCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BA8BAD2484E70400F8CCC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A14171CC65C8561BF2B8126 /* Pods-DemoBinary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				INFOPLIST_FILE = "Demo二进制重排/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ORDER_FILE = ./forest.order;
+				OTHER_CFLAGS = "-fsanitize-coverage=func,trace-pc-guard";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstore.Demo-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BA8BAE2484E70400F8CCC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9159921CC84846535DEFE1 /* Pods-DemoBinary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				INFOPLIST_FILE = "Demo二进制重排/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ORDER_FILE = ./forest.order;
+				OTHER_CFLAGS = "-fsanitize-coverage=func,trace-pc-guard";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstore.Demo-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BA8B8E2484E70100F8CCC4 /* Build configuration list for PBXProject "DemoBinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA8BAA2484E70400F8CCC4 /* Debug */,
+				18BA8BAB2484E70400F8CCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA8BAC2484E70400F8CCC4 /* Build configuration list for PBXNativeTarget "DemoBinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA8BAD2484E70400F8CCC4 /* Debug */,
+				18BA8BAE2484E70400F8CCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BA8B8B2484E70100F8CCC4 /* Project object */;
+}

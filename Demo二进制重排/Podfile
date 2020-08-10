@@ -1,0 +1,17 @@
+use_frameworks!
+target 'DemoBinary' do
+	pod 'Masonry'
+	pod 'MJRefresh'
+  pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'JSONModel'
+  pod 'Ono'
+  pod 'AFNetworking','=3.0'
+  pod 'DTCoreText'
+  pod 'FMDB'
+  pod 'ReactiveCocoa', '=2.3'
+  pod 'FDFullscreenPopGesture'
+end
+
