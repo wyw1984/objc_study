@@ -7,9 +7,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class Person;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Student : NSObject
+
+@property (nonatomic, weak) Person *person;
 
 @end
 

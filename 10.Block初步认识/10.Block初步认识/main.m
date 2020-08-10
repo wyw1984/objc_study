@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SLPerson.h"
 
+//xcrun -sdk iphoneos clang -arch arm64 -rewrite-objc -fobjc-arc -fobjc-runtime=ios-8.0.0 main.m -o main.cpp
 /*
  struct __block_impl {
  void *isa;

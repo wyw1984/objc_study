@@ -25,10 +25,10 @@
 
 - (void)testCircleTimer{
     //保证调用频率和屏幕的刷帧率一致，60FPS
-    self.link = [CADisplayLink displayLinkWithTarget:[SLProxy proxyWithTarget:self] selector:@selector(linkTest)];
-    [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+//    self.link = [CADisplayLink displayLinkWithTarget:[SLProxy proxyWithTarget:self] selector:@selector(linkTest)];
+//    [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
     
-    //    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:[SLProxy proxyWithTarget:self] selector:@selector(timerTest) userInfo:nil repeats:YES];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:[SLProxy proxyWithTarget:self] selector:@selector(timerTest) userInfo:nil repeats:YES];
     
     //    __weak typeof(self) weakSelf = self;
     //    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
@@ -107,7 +107,8 @@ void timerFire(void *param)
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self testGCDTimer];
+//    [self testGCDTimer];
+    [self testCircleTimer];
     
 }
 

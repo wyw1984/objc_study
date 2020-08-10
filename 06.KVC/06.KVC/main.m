@@ -47,7 +47,7 @@ void test(){
 void test2(){
     SLPerson *person = [[SLPerson alloc]init];
     
-    //通过kvc更改属性age值
+    //通过kvc更改属性age值，如果想证明是否会触发KVO，可以在对象类中添加willChange，didChange方法
     [person setValue:@10 forKey:@"age"];
 }
 

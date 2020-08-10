@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A67AAE23EFBCBB005583D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A67AAD23EFBCBB005583D9 /* main.m */; };
+		07A67AAE23EFBCBB005583D9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07A67AAD23EFBCBB005583D9 /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		07A67AAA23EFBCBB005583D9 /* 04.class结构的探索 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04.class结构的探索"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07A67AAD23EFBCBB005583D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07A67AAD23EFBCBB005583D9 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		07A67AB423EFBCEF005583D9 /* SLClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLClassInfo.h; sourceTree = "<group>"; };
+		07A67AB523EFC575005583D9 /* SLClassInfoM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLClassInfoM.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		07A67AAC23EFBCBB005583D9 /* 04.class结构的探索 */ = {
 			isa = PBXGroup;
 			children = (
-				07A67AAD23EFBCBB005583D9 /* main.m */,
+				07A67AB523EFC575005583D9 /* SLClassInfoM.h */,
+				07A67AAD23EFBCBB005583D9 /* main.mm */,
+				07A67AB423EFBCEF005583D9 /* SLClassInfo.h */,
 			);
 			path = "04.class结构的探索";
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A67AAE23EFBCBB005583D9 /* main.m in Sources */,
+				07A67AAE23EFBCBB005583D9 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

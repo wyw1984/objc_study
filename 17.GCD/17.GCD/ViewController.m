@@ -19,6 +19,24 @@
 
 @implementation ViewController
 
+- (void)test0{
+    NSLog(@"执行任务1");
+    dispatch_queue_t queue = dispatch_queue_create("myqueu", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue2 = dispatch_queue_create("myqueu", DISPATCH_QUEUE_SERIAL);
+    dispatch_async(queue, ^{
+        NSLog(@"执行任务2");
+        NSLog(@"xxxx:%@",[NSThread currentThread]);
+        dispatch_sync(queue2, ^{
+            NSLog(@"xx:%@",[NSThread currentThread]);
+            NSLog(@"执行任务3");
+        });
+        NSLog(@"执行任务4");
+    });
+    NSLog(@"执行任务5");
+}
+
+
+
 - (void)test1{
     
     dispatch_queue_t queue = dispatch_queue_create("myqueu", DISPATCH_QUEUE_CONCURRENT);
@@ -281,6 +299,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self test0];
 //    [self test1];
 //    [self test2];
     //    [self testGroup];
@@ -288,7 +307,7 @@
     //      [self ticketTest];
 //    [self test3];
 //    [self test4];
-    [self test10];
+//    [self test10];
 }
 
 

@@ -35,7 +35,7 @@ void test(){
     NSMutableString *str1 = [NSMutableString stringWithFormat:@"test"];
     NSString *str2 = [str1 copy];
     NSMutableString *str3 = [str1 mutableCopy];
-    
+    NSLog(@"%p %p %p", str1, str2, str3);
     NSLog(@"%@ %@ %@", str1, str2, str3);
 }
 
@@ -147,7 +147,9 @@ void test10(){
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+        test();
+        NSLog(@"---------");
+        test2();
     }
     return 0;
 }

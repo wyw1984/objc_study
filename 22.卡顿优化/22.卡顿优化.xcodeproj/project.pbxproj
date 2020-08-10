@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0758D5C023F8E2810027CD8C /* LXDAppFluecyMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D59D23F8E2810027CD8C /* LXDAppFluecyMonitorUITests.m */; };
+		0758D5C123F8E2810027CD8C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0758D59E23F8E2810027CD8C /* Info.plist */; };
+		0758D5C223F8E2810027CD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0758D5A123F8E2810027CD8C /* Assets.xcassets */; };
+		0758D5C323F8E2810027CD8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D5A223F8E2810027CD8C /* ViewController.m */; };
+		0758D5C423F8E2810027CD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0758D5A323F8E2810027CD8C /* LaunchScreen.storyboard */; };
+		0758D5C523F8E2810027CD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0758D5A523F8E2810027CD8C /* Main.storyboard */; };
+		0758D5C623F8E2810027CD8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D5A723F8E2810027CD8C /* main.m */; };
+		0758D5C723F8E2810027CD8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D5A823F8E2810027CD8C /* AppDelegate.m */; };
+		0758D5C823F8E2810027CD8C /* LXDBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D5AB23F8E2810027CD8C /* LXDBacktraceLogger.m */; };
+		0758D5C923F8E2810027CD8C /* LXDAppFluecyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D5AE23F8E2810027CD8C /* LXDAppFluecyMonitor.m */; };
+		0758D5CA23F8E2810027CD8C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0758D5AF23F8E2810027CD8C /* Info.plist */; };
+		0758D5CB23F8E2810027CD8C /* LXDAppFluecyMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758D5B223F8E2810027CD8C /* LXDAppFluecyMonitorTests.m */; };
+		0758D5CC23F8E2810027CD8C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0758D5B323F8E2810027CD8C /* Info.plist */; };
 		0778435C22E583B80042C439 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0778435B22E583B80042C439 /* AppDelegate.m */; };
 		0778435F22E583B80042C439 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0778435E22E583B80042C439 /* ViewController.m */; };
 		0778436222E583B80042C439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0778436022E583B80042C439 /* Main.storyboard */; };
@@ -15,7 +28,49 @@
 		0778436A22E583BA0042C439 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0778436922E583BA0042C439 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0758D5BA23F8E2810027CD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0758D5B423F8E2810027CD8C /* LXDAppFluecyMonitor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF9693161E8218B4005EC812;
+			remoteInfo = LXDAppFluecyMonitor;
+		};
+		0758D5BC23F8E2810027CD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0758D5B423F8E2810027CD8C /* LXDAppFluecyMonitor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF96932F1E8218B5005EC812;
+			remoteInfo = LXDAppFluecyMonitorTests;
+		};
+		0758D5BE23F8E2810027CD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0758D5B423F8E2810027CD8C /* LXDAppFluecyMonitor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF96933A1E8218B5005EC812;
+			remoteInfo = LXDAppFluecyMonitorUITests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0758D59D23F8E2810027CD8C /* LXDAppFluecyMonitorUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDAppFluecyMonitorUITests.m; sourceTree = "<group>"; };
+		0758D59E23F8E2810027CD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0758D5A023F8E2810027CD8C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0758D5A123F8E2810027CD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0758D5A223F8E2810027CD8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0758D5A423F8E2810027CD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0758D5A623F8E2810027CD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0758D5A723F8E2810027CD8C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0758D5A823F8E2810027CD8C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0758D5AB23F8E2810027CD8C /* LXDBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDBacktraceLogger.m; sourceTree = "<group>"; };
+		0758D5AC23F8E2810027CD8C /* LXDBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDBacktraceLogger.h; sourceTree = "<group>"; };
+		0758D5AD23F8E2810027CD8C /* LXDAppFluecyMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDAppFluecyMonitor.h; sourceTree = "<group>"; };
+		0758D5AE23F8E2810027CD8C /* LXDAppFluecyMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDAppFluecyMonitor.m; sourceTree = "<group>"; };
+		0758D5AF23F8E2810027CD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0758D5B023F8E2810027CD8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0758D5B223F8E2810027CD8C /* LXDAppFluecyMonitorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDAppFluecyMonitorTests.m; sourceTree = "<group>"; };
+		0758D5B323F8E2810027CD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0758D5B423F8E2810027CD8C /* LXDAppFluecyMonitor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LXDAppFluecyMonitor.xcodeproj; sourceTree = "<group>"; };
 		0778435722E583B80042C439 /* 22.卡顿优化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "22.卡顿优化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0778435A22E583B80042C439 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0778435B22E583B80042C439 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +94,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0758D59B23F8E2810027CD8C /* LXDAppFluecyMonitor-master */ = {
+			isa = PBXGroup;
+			children = (
+				0758D59C23F8E2810027CD8C /* LXDAppFluecyMonitorUITests */,
+				0758D59F23F8E2810027CD8C /* LXDAppFluecyMonitor */,
+				0758D5B123F8E2810027CD8C /* LXDAppFluecyMonitorTests */,
+				0758D5B423F8E2810027CD8C /* LXDAppFluecyMonitor.xcodeproj */,
+			);
+			path = "LXDAppFluecyMonitor-master";
+			sourceTree = "<group>";
+		};
+		0758D59C23F8E2810027CD8C /* LXDAppFluecyMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0758D59D23F8E2810027CD8C /* LXDAppFluecyMonitorUITests.m */,
+				0758D59E23F8E2810027CD8C /* Info.plist */,
+			);
+			path = LXDAppFluecyMonitorUITests;
+			sourceTree = "<group>";
+		};
+		0758D59F23F8E2810027CD8C /* LXDAppFluecyMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				0758D5A023F8E2810027CD8C /* AppDelegate.h */,
+				0758D5A123F8E2810027CD8C /* Assets.xcassets */,
+				0758D5A223F8E2810027CD8C /* ViewController.m */,
+				0758D5A323F8E2810027CD8C /* LaunchScreen.storyboard */,
+				0758D5A523F8E2810027CD8C /* Main.storyboard */,
+				0758D5A723F8E2810027CD8C /* main.m */,
+				0758D5A823F8E2810027CD8C /* AppDelegate.m */,
+				0758D5A923F8E2810027CD8C /* LXDAppFluecyMonitor */,
+				0758D5AF23F8E2810027CD8C /* Info.plist */,
+				0758D5B023F8E2810027CD8C /* ViewController.h */,
+			);
+			path = LXDAppFluecyMonitor;
+			sourceTree = "<group>";
+		};
+		0758D5A923F8E2810027CD8C /* LXDAppFluecyMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				0758D5AA23F8E2810027CD8C /* Backtrace */,
+				0758D5AD23F8E2810027CD8C /* LXDAppFluecyMonitor.h */,
+				0758D5AE23F8E2810027CD8C /* LXDAppFluecyMonitor.m */,
+			);
+			path = LXDAppFluecyMonitor;
+			sourceTree = "<group>";
+		};
+		0758D5AA23F8E2810027CD8C /* Backtrace */ = {
+			isa = PBXGroup;
+			children = (
+				0758D5AB23F8E2810027CD8C /* LXDBacktraceLogger.m */,
+				0758D5AC23F8E2810027CD8C /* LXDBacktraceLogger.h */,
+			);
+			path = Backtrace;
+			sourceTree = "<group>";
+		};
+		0758D5B123F8E2810027CD8C /* LXDAppFluecyMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0758D5B223F8E2810027CD8C /* LXDAppFluecyMonitorTests.m */,
+				0758D5B323F8E2810027CD8C /* Info.plist */,
+			);
+			path = LXDAppFluecyMonitorTests;
+			sourceTree = "<group>";
+		};
+		0758D5B523F8E2810027CD8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0758D5BB23F8E2810027CD8C /* LXDAppFluecyMonitor.app */,
+				0758D5BD23F8E2810027CD8C /* LXDAppFluecyMonitorTests.xctest */,
+				0758D5BF23F8E2810027CD8C /* LXDAppFluecyMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0778434E22E583B80042C439 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +188,7 @@
 		0778435922E583B80042C439 /* 22.卡顿优化 */ = {
 			isa = PBXGroup;
 			children = (
+				0758D59B23F8E2810027CD8C /* LXDAppFluecyMonitor-master */,
 				0778435A22E583B80042C439 /* AppDelegate.h */,
 				0778435B22E583B80042C439 /* AppDelegate.m */,
 				0778435D22E583B80042C439 /* ViewController.h */,
@@ -116,6 +247,12 @@
 			mainGroup = 0778434E22E583B80042C439;
 			productRefGroup = 0778435822E583B80042C439 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0758D5B523F8E2810027CD8C /* Products */;
+					ProjectRef = 0758D5B423F8E2810027CD8C /* LXDAppFluecyMonitor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0778435622E583B80042C439 /* 22.卡顿优化 */,
@@ -123,14 +260,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0758D5BB23F8E2810027CD8C /* LXDAppFluecyMonitor.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LXDAppFluecyMonitor.app;
+			remoteRef = 0758D5BA23F8E2810027CD8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0758D5BD23F8E2810027CD8C /* LXDAppFluecyMonitorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LXDAppFluecyMonitorTests.xctest;
+			remoteRef = 0758D5BC23F8E2810027CD8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0758D5BF23F8E2810027CD8C /* LXDAppFluecyMonitorUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LXDAppFluecyMonitorUITests.xctest;
+			remoteRef = 0758D5BE23F8E2810027CD8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		0778435522E583B80042C439 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0758D5CA23F8E2810027CD8C /* Info.plist in Resources */,
+				0758D5C523F8E2810027CD8C /* Main.storyboard in Resources */,
+				0758D5CC23F8E2810027CD8C /* Info.plist in Resources */,
+				0758D5C123F8E2810027CD8C /* Info.plist in Resources */,
 				0778436722E583BA0042C439 /* LaunchScreen.storyboard in Resources */,
 				0778436422E583BA0042C439 /* Assets.xcassets in Resources */,
+				0758D5C423F8E2810027CD8C /* LaunchScreen.storyboard in Resources */,
 				0778436222E583B80042C439 /* Main.storyboard in Resources */,
+				0758D5C223F8E2810027CD8C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,14 +309,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				0778435F22E583B80042C439 /* ViewController.m in Sources */,
+				0758D5CB23F8E2810027CD8C /* LXDAppFluecyMonitorTests.m in Sources */,
+				0758D5C023F8E2810027CD8C /* LXDAppFluecyMonitorUITests.m in Sources */,
 				0778436A22E583BA0042C439 /* main.m in Sources */,
 				0778435C22E583B80042C439 /* AppDelegate.m in Sources */,
+				0758D5C923F8E2810027CD8C /* LXDAppFluecyMonitor.m in Sources */,
+				0758D5C623F8E2810027CD8C /* main.m in Sources */,
+				0758D5C323F8E2810027CD8C /* ViewController.m in Sources */,
+				0758D5C723F8E2810027CD8C /* AppDelegate.m in Sources */,
+				0758D5C823F8E2810027CD8C /* LXDBacktraceLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0758D5A323F8E2810027CD8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0758D5A423F8E2810027CD8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0758D5A523F8E2810027CD8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0758D5A623F8E2810027CD8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		0778436022E583B80042C439 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -19,6 +19,7 @@
 
 NSMutableDictionary *runloops;
 
+ //1------------------------------------------------------------------------------------------------------------------------
 void observeRunLoopActicities(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info)
 {
     switch (activity) {
@@ -54,6 +55,7 @@ void observeRunLoopActicities(CFRunLoopObserverRef observer, CFRunLoopActivity a
     //    NSLog(@"=================");
     //    NSLog(@"%@",[NSRunLoop mainRunLoop]);
     
+     //1------------------------------------------------------------------------------------------------------------------------
     // 创建Observer
     //    CFRunLoopObserverRef observer = CFRunLoopObserverCreate(kCFAllocatorDefault, kCFRunLoopAllActivities, YES, 0, observeRunLoopActicities, NULL);
     //    // 添加Observer到RunLoop中
@@ -61,33 +63,34 @@ void observeRunLoopActicities(CFRunLoopObserverRef observer, CFRunLoopActivity a
     //    // 释放
     //    CFRelease(observer);
     
+    //2------------------------------------------------------------------------------------------------------------------------
     // 创建Observer
-//    CFRunLoopObserverRef observer = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopAllActivities, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
-//        switch (activity) {
-//            case kCFRunLoopEntry: {
-//                CFRunLoopMode mode = CFRunLoopCopyCurrentMode(CFRunLoopGetCurrent());
-//                NSLog(@"kCFRunLoopEntry - %@", mode);
-//                CFRelease(mode);
-//                break;
-//            }
-//                
-//            case kCFRunLoopExit: {
-//                CFRunLoopMode mode = CFRunLoopCopyCurrentMode(CFRunLoopGetCurrent());
-//                NSLog(@"kCFRunLoopExit - %@", mode);
-//                CFRelease(mode);
-//                break;
-//            }
-//                
-//            default:
-//                break;
-//        }
-//    });
-//    // 添加Observer到RunLoop中
-//    CFRunLoopAddObserver(CFRunLoopGetMain(), observer, kCFRunLoopCommonModes);
-//    // 释放
-//    CFRelease(observer);
+    CFRunLoopObserverRef observer = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopAllActivities, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
+        switch (activity) {
+            case kCFRunLoopEntry: {
+                CFRunLoopMode mode = CFRunLoopCopyCurrentMode(CFRunLoopGetCurrent());
+                NSLog(@"kCFRunLoopEntry - %@", mode);
+                CFRelease(mode);
+                break;
+            }
+                
+            case kCFRunLoopExit: {
+                CFRunLoopMode mode = CFRunLoopCopyCurrentMode(CFRunLoopGetCurrent());
+                NSLog(@"kCFRunLoopExit - %@", mode);
+                CFRelease(mode);
+                break;
+            }
+                
+            default:
+                break;
+        }
+    });
+    // 添加Observer到RunLoop中
+    CFRunLoopAddObserver(CFRunLoopGetMain(), observer, kCFRunLoopCommonModes);
+    // 释放
+    CFRelease(observer);
     
-    
+     //3------------------------------------------------------------------------------------------------------------------------
 //    static int count = 0;
 //    NSTimer *timer = [NSTimer timerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
 //        NSLog(@"%d", ++count);
@@ -104,6 +107,7 @@ void observeRunLoopActicities(CFRunLoopObserverRef observer, CFRunLoopActivity a
     //        NSLog(@"%d", ++count);
     //    }];
     
+     //4------------------------------------------------------------------------------------------------------------------------
     //线程保活
     self.thread = [[SLThread alloc]initWithTarget:self selector:@selector(run) object:nil];
     [self.thread start];
@@ -111,14 +115,44 @@ void observeRunLoopActicities(CFRunLoopObserverRef observer, CFRunLoopActivity a
 }
 
 // 这个方法的目的：线程保活
+ //4------------------------------------------------------------------------------------------------------------------------
 - (void)run {
     NSLog(@"%s %@", __func__, [NSThread currentThread]);
+    
+    
+    // 创建Observer
+    CFRunLoopObserverRef observer = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopAllActivities, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
+        switch (activity) {
+            case kCFRunLoopEntry: {
+                CFRunLoopMode mode = CFRunLoopCopyCurrentMode(CFRunLoopGetCurrent());
+                NSLog(@"kCFRunLoopEntry - %@", mode);
+                CFRelease(mode);
+                break;
+            }
+                
+            case kCFRunLoopExit: {
+                CFRunLoopMode mode = CFRunLoopCopyCurrentMode(CFRunLoopGetCurrent());
+                NSLog(@"kCFRunLoopExit - %@", mode);
+                CFRelease(mode);
+                break;
+            }
+                
+            default:
+                break;
+        }
+    });
+    // 添加Observer到RunLoop中
+    CFRunLoopAddObserver(CFRunLoopGetCurrent(), observer, kCFRunLoopCommonModes);
+    // 释放
+    CFRelease(observer);
+    
     
     // 往RunLoop里面添加Source\Timer\Observer
     [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc] init] forMode:NSDefaultRunLoopMode];
     [[NSRunLoop currentRunLoop] run];
     
     NSLog(@"%s ----end----", __func__);
+
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -132,6 +166,7 @@ void observeRunLoopActicities(CFRunLoopObserverRef observer, CFRunLoopActivity a
     //    }];
     
     //测试线程保活
+     //4------------------------------------------------------------------------------------------------------------------------
     [self performSelector:@selector(test) onThread:self.thread withObject:nil waitUntilDone:NO];
     
 }

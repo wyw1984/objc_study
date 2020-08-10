@@ -652,6 +652,20 @@ struct __CFRunLoop {
     CFAbsoluteTime _sleepTime;
     CFTypeRef _counterpart;
 };
+/*
+ // runloop数据结构
+ struct __CFRunLoopMode {
+ CFStringRef _name;            // Mode名字,
+ CFMutableSetRef _sources0;    // Set<CFRunLoopSourceRef>
+ CFMutableSetRef _sources1;    // Set<CFRunLoopSourceRef>
+ CFMutableArrayRef _observers; // Array<CFRunLoopObserverRef>
+ CFMutableArrayRef _timers;    // Array<CFRunLoopTimerRef>
+ ...
+ 
+ ————————————————
+ 版权声明：本文为CSDN博主「hherima」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+ 原文链接：https://blog.csdn.net/hherima/article/details/51746125
+ */
 
 /* Bit 0 of the base reserved bits is used for stopped state */
 /* Bit 1 of the base reserved bits is used for sleeping state */

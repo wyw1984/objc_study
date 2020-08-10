@@ -16,6 +16,7 @@
 		077842D022E433050042C439 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 077842CF22E433050042C439 /* Car.m */; };
 		077842D322E433120042C439 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 077842D222E433120042C439 /* Dog.m */; };
 		077842D622E4334D0042C439 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 077842D522E4334D0042C439 /* Person.m */; };
+		07D1216B23F831030037A452 /* ReadME in Resources */ = {isa = PBXBuildFile; fileRef = 07D1216A23F831030037A452 /* ReadME */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		077842D222E433120042C439 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		077842D422E4334D0042C439 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		077842D522E4334D0042C439 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		07D1216A23F831030037A452 /* ReadME */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadME; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				077842C322E422EC0042C439 /* LaunchScreen.storyboard */,
 				077842C622E422EC0042C439 /* Info.plist */,
 				077842C722E422EC0042C439 /* main.m */,
+				07D1216A23F831030037A452 /* ReadME */,
 			);
 			path = "20MRC内存管理";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D1216B23F831030037A452 /* ReadME in Resources */,
 				077842C522E422EC0042C439 /* LaunchScreen.storyboard in Resources */,
 				077842C222E422EC0042C439 /* Assets.xcassets in Resources */,
 				077842C022E422EB0042C439 /* Main.storyboard in Resources */,

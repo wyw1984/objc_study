@@ -1,0 +1,6 @@
+
+1.开启MRC
+2.如果想测试下面代码生效，需要编辑scheme设置僵尸对象
+    [_dog release];
+    _dog = [dog retain];
+    

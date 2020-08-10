@@ -24,7 +24,7 @@
 {
     self.data = nil;
     
-    [super dealloc];
+//    [super dealloc];
 }
 
 @end
