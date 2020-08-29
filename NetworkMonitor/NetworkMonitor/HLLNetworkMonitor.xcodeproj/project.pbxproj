@@ -176,9 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				0762189D24F7BE9F00445031 /* HLLCache.h */,
-				0762189E24F7BE9F00445031 /* HLLDataModel.m */,
 				0762189F24F7BE9F00445031 /* HLLCache.m */,
 				076218A024F7BE9F00445031 /* HLLDataModel.h */,
+				0762189E24F7BE9F00445031 /* HLLDataModel.m */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
