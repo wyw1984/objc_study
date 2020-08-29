@@ -1,0 +1,6 @@
+framework module Pods_CoreTextDemo2hybrid {
+  umbrella header "Pods-CoreTextDemo2hybrid-umbrella.h"
+
+  export *
+  module * { export * }
+}

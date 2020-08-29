@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CoreTextDemoView *demoView = [[CoreTextDemoView alloc]initWithFrame:CGRectMake(0, 200, self.view.bounds.size.width, self.view.bounds.size.height)];
+    CoreTextDemoView *demoView = [[CoreTextDemoView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height)];
     demoView.backgroundColor = [UIColor redColor];
     [self.view addSubview:demoView];
   
