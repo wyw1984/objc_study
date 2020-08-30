@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/forest/objc_study/NetworkMonitor/NMSample/NetworkMonitorDemo.xcodeproj">
+      location = "group:NetWorkMonitorDemo/NetworkMonitorDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:NetworkMonitor/HLLNetworkMonitor.xcodeproj">

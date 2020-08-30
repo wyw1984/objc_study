@@ -3,7 +3,7 @@
 //  NetworkMonitorSample
 //
 //  Created by fengslon 2018/6/7.
-//  Copyright © Copyright © 2020 Ssky. All rights reserved.
+//  Copyright © Copyright © 2020 fengsl. All rights reserved.
 //
 
 #import "NSURLConnectionDownloadDelegate.h"
