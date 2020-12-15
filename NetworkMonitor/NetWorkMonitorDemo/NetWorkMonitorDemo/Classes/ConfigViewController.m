@@ -48,7 +48,7 @@ const NSString *cmdWlKey = @"NetworkMonitor_cmdWlKey";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor blackColor];
     self.pingTester = [[HLLPingTester alloc] initWithHostName:@"www.baidu.com"];
      self.pingTester.delegate = self;
     //开了这个之后就是ping

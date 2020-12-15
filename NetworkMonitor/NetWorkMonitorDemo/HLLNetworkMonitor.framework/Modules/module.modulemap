@@ -1,0 +1,6 @@
+framework module HLLNetworkMonitor {
+  umbrella header "HLLNetworkMonitor.h"
+
+  export *
+  module * { export * }
+}

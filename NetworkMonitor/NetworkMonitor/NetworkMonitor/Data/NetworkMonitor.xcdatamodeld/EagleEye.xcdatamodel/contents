@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="HLLData" representedClassName="HLLData" syncable="YES" codeGenerationType="class">
+        <attribute name="apn" optional="YES" attributeType="String"/>
+        <attribute name="cmd" optional="YES" attributeType="String"/>
+        <attribute name="cnnt" optional="YES" attributeType="String"/>
+        <attribute name="cty" optional="YES" attributeType="String"/>
+        <attribute name="ddata" optional="YES" attributeType="String"/>
+        <attribute name="dmd5" optional="YES" attributeType="String"/>
+        <attribute name="dnst" optional="YES" attributeType="String"/>
+        <attribute name="dsize" optional="YES" attributeType="String"/>
+        <attribute name="ec" optional="YES" attributeType="String"/>
+        <attribute name="ed" optional="YES" attributeType="String"/>
+        <attribute name="eres" optional="YES" attributeType="String"/>
+        <attribute name="etp" optional="YES" attributeType="String"/>
+        <attribute name="extension" optional="YES" attributeType="Transformable"/>
+        <attribute name="ns" optional="YES" attributeType="String"/>
+        <attribute name="oip" optional="YES" attributeType="String"/>
+        <attribute name="omd5" optional="YES" attributeType="String"/>
+        <attribute name="osize" optional="YES" attributeType="String"/>
+        <attribute name="ourl" optional="YES" attributeType="String"/>
+        <attribute name="rcvt" optional="YES" attributeType="String"/>
+        <attribute name="rdsize" optional="YES" attributeType="String"/>
+        <attribute name="reqs" optional="YES" attributeType="String"/>
+        <attribute name="ress" optional="YES" attributeType="String"/>
+        <attribute name="rip" optional="YES" attributeType="String"/>
+        <attribute name="rurl" optional="YES" attributeType="String"/>
+        <attribute name="sc" optional="YES" attributeType="String"/>
+        <attribute name="sdt" optional="YES" attributeType="String"/>
+        <attribute name="sreq" optional="YES" attributeType="String"/>
+        <attribute name="sslt" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="ti" optional="YES" attributeType="String"/>
+        <attribute name="ttt" optional="YES" attributeType="String"/>
+        <attribute name="wtt" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="HLLData" positionX="160" positionY="192" width="128" height="523"/>
+    </elements>
+</model>

@@ -7,58 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076218D824F7BE9F00445031 /* HLLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0762189D24F7BE9F00445031 /* HLLCache.h */; };
-		076218D924F7BE9F00445031 /* HLLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762189E24F7BE9F00445031 /* HLLDataModel.m */; };
-		076218DA24F7BE9F00445031 /* HLLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762189F24F7BE9F00445031 /* HLLCache.m */; };
-		076218DB24F7BE9F00445031 /* HLLDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218A024F7BE9F00445031 /* HLLDataModel.h */; };
-		076218DC24F7BE9F00445031 /* NetworkMonitor.pch in Headers */ = {isa = PBXBuildFile; fileRef = 076218A124F7BE9F00445031 /* NetworkMonitor.pch */; };
-		076218DD24F7BE9F00445031 /* NSObject+HLLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218A324F7BE9F00445031 /* NSObject+HLLRuntime.m */; };
-		076218DE24F7BE9F00445031 /* NSURLSession+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218A424F7BE9F00445031 /* NSURLSession+Helper.m */; };
-		076218DF24F7BE9F00445031 /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218A524F7BE9F00445031 /* NSURL+Helper.m */; };
-		076218E024F7BE9F00445031 /* NSURLRequest+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218A624F7BE9F00445031 /* NSURLRequest+Helper.m */; };
-		076218E124F7BE9F00445031 /* NSHTTPURLResponse+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218A724F7BE9F00445031 /* NSHTTPURLResponse+Helper.m */; };
-		076218E224F7BE9F00445031 /* HLLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218A824F7BE9F00445031 /* HLLReachability.m */; };
-		076218E324F7BE9F00445031 /* NSURLConnection+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218A924F7BE9F00445031 /* NSURLConnection+Helper.h */; };
-		076218E424F7BE9F00445031 /* NSURLSession+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218AA24F7BE9F00445031 /* NSURLSession+Helper.h */; };
-		076218E524F7BE9F00445031 /* NSObject+HLLRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218AB24F7BE9F00445031 /* NSObject+HLLRuntime.h */; };
-		076218E624F7BE9F00445031 /* NSHTTPURLResponse+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218AC24F7BE9F00445031 /* NSHTTPURLResponse+Helper.h */; };
-		076218E724F7BE9F00445031 /* NSURLRequest+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218AD24F7BE9F00445031 /* NSURLRequest+Helper.h */; };
-		076218E824F7BE9F00445031 /* NSURL+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218AE24F7BE9F00445031 /* NSURL+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		076218E924F7BE9F00445031 /* HLLReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218AF24F7BE9F00445031 /* HLLReachability.h */; };
-		076218EA24F7BE9F00445031 /* NSURLConnection+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218B024F7BE9F00445031 /* NSURLConnection+Helper.m */; };
-		076218EB24F7BE9F00445031 /* HLLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218B224F7BE9F00445031 /* HLLConfig.m */; };
-		076218EC24F7BE9F00445031 /* HLLNetWorkMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218B324F7BE9F00445031 /* HLLNetWorkMonitorManager.m */; };
-		076218ED24F7BE9F00445031 /* HLLNetworkMonitorDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218B424F7BE9F00445031 /* HLLNetworkMonitorDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		076218EE24F7BE9F00445031 /* HLLConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218B524F7BE9F00445031 /* HLLConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		076218EF24F7BE9F00445031 /* HLLNetWorkMonitorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218B624F7BE9F00445031 /* HLLNetWorkMonitorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		076218F024F7BE9F00445031 /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218B824F7BE9F00445031 /* NSData+GZIP.h */; };
-		076218F124F7BE9F00445031 /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218B924F7BE9F00445031 /* NSData+GZIP.m */; };
-		076218F224F7BE9F00445031 /* HLLNetUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218BB24F7BE9F00445031 /* HLLNetUtils.m */; };
-		076218F324F7BE9F00445031 /* HLLNetUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218BC24F7BE9F00445031 /* HLLNetUtils.h */; };
-		076218F424F7BE9F00445031 /* HLLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218BE24F7BE9F00445031 /* HLLProxy.m */; };
-		076218F524F7BE9F00445031 /* HLLHooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218BF24F7BE9F00445031 /* HLLHooker.h */; };
-		076218F624F7BE9F00445031 /* HLLURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218C024F7BE9F00445031 /* HLLURLProtocol.m */; };
-		076218F724F7BE9F00445031 /* HLLObjectDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218C124F7BE9F00445031 /* HLLObjectDelegate.h */; };
-		076218F824F7BE9F00445031 /* HLLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218C224F7BE9F00445031 /* HLLProxy.h */; };
-		076218F924F7BE9F00445031 /* HLLHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218C324F7BE9F00445031 /* HLLHooker.m */; };
-		076218FA24F7BE9F00445031 /* HLLObjectDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218C424F7BE9F00445031 /* HLLObjectDelegate.m */; };
-		076218FB24F7BE9F00445031 /* HLLURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218C524F7BE9F00445031 /* HLLURLProtocol.h */; };
-		076218FC24F7BE9F00445031 /* HLLNetworkMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218C624F7BE9F00445031 /* HLLNetworkMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		076218FD24F7BE9F00445031 /* HLLCommonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218C824F7BE9F00445031 /* HLLCommonModel.h */; };
-		076218FE24F7BE9F00445031 /* HLLCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218C924F7BE9F00445031 /* HLLCommonModel.m */; };
-		076218FF24F7BE9F00445031 /* NetworkMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 076218CB24F7BE9F00445031 /* NetworkMonitor.xcdatamodeld */; };
-		0762190024F7BE9F00445031 /* HLLBaseData.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218CE24F7BE9F00445031 /* HLLBaseData.h */; };
-		0762190124F7BE9F00445031 /* HLLDataEntiy.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218CF24F7BE9F00445031 /* HLLDataEntiy.m */; };
-		0762190224F7BE9F00445031 /* HLLDataEntiy.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218D024F7BE9F00445031 /* HLLDataEntiy.h */; };
-		0762190324F7BE9F00445031 /* HLLBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218D124F7BE9F00445031 /* HLLBaseData.m */; };
-		0762190424F7BE9F00445031 /* NMData+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218D324F7BE9F00445031 /* NMData+CoreDataProperties.h */; };
-		0762190524F7BE9F00445031 /* NMData+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218D424F7BE9F00445031 /* NMData+CoreDataClass.m */; };
-		0762190624F7BE9F00445031 /* NMData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 076218D524F7BE9F00445031 /* NMData+CoreDataProperties.m */; };
-		0762190724F7BE9F00445031 /* NMData+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 076218D624F7BE9F00445031 /* NMData+CoreDataClass.h */; };
-		0762190F24F8911A00445031 /* HLLPingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0762190D24F8911A00445031 /* HLLPingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0762191024F8911A00445031 /* HLLPingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762190E24F8911A00445031 /* HLLPingManager.m */; };
-		0762191324F8937200445031 /* HLLPingTester.h in Headers */ = {isa = PBXBuildFile; fileRef = 0762191124F8937200445031 /* HLLPingTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0762191424F8937200445031 /* HLLPingTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762191224F8937200445031 /* HLLPingTester.m */; };
+		077A69EA25806C4500DE847E /* HLLPingTester.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69A725806C4400DE847E /* HLLPingTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69EB25806C4500DE847E /* HLLPingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69A825806C4400DE847E /* HLLPingManager.m */; };
+		077A69EC25806C4500DE847E /* HLLPingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69A925806C4400DE847E /* HLLPingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69ED25806C4500DE847E /* HLLPingTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69AA25806C4400DE847E /* HLLPingTester.m */; };
+		077A69EE25806C4500DE847E /* HLLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69AC25806C4400DE847E /* HLLCache.h */; };
+		077A69EF25806C4500DE847E /* HLLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69AD25806C4400DE847E /* HLLDataModel.m */; };
+		077A69F025806C4500DE847E /* HLLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69AE25806C4500DE847E /* HLLCache.m */; };
+		077A69F125806C4500DE847E /* HLLDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69AF25806C4500DE847E /* HLLDataModel.h */; };
+		077A69F225806C4500DE847E /* NetworkMonitor.pch in Headers */ = {isa = PBXBuildFile; fileRef = 077A69B025806C4500DE847E /* NetworkMonitor.pch */; };
+		077A69F325806C4500DE847E /* NSObject+HLLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69B225806C4500DE847E /* NSObject+HLLRuntime.m */; };
+		077A69F525806C4500DE847E /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69B425806C4500DE847E /* NSURL+Helper.m */; };
+		077A69F625806C4500DE847E /* NSURLRequest+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69B525806C4500DE847E /* NSURLRequest+Helper.m */; };
+		077A69F725806C4500DE847E /* NSHTTPURLResponse+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69B625806C4500DE847E /* NSHTTPURLResponse+Helper.m */; };
+		077A69F825806C4500DE847E /* HLLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69B725806C4500DE847E /* HLLReachability.m */; };
+		077A69F925806C4500DE847E /* NSURLConnection+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69B825806C4500DE847E /* NSURLConnection+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69FA25806C4500DE847E /* NSURLSession+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69B925806C4500DE847E /* NSURLSession+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69FB25806C4500DE847E /* NSObject+HLLRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69BA25806C4500DE847E /* NSObject+HLLRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69FC25806C4500DE847E /* NSHTTPURLResponse+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69BB25806C4500DE847E /* NSHTTPURLResponse+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69FD25806C4500DE847E /* NSURLRequest+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69BC25806C4500DE847E /* NSURLRequest+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69FE25806C4500DE847E /* NSURL+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69BD25806C4500DE847E /* NSURL+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A69FF25806C4500DE847E /* HLLReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69BE25806C4500DE847E /* HLLReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A6A0025806C4500DE847E /* NSURLConnection+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69BF25806C4500DE847E /* NSURLConnection+Helper.m */; };
+		077A6A0125806C4500DE847E /* HLLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69C125806C4500DE847E /* HLLConfig.m */; };
+		077A6A0225806C4500DE847E /* HLLNetWorkMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69C225806C4500DE847E /* HLLNetWorkMonitorManager.m */; };
+		077A6A0325806C4500DE847E /* HLLNetworkMonitorDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69C325806C4500DE847E /* HLLNetworkMonitorDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A6A0425806C4500DE847E /* HLLConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69C425806C4500DE847E /* HLLConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A6A0525806C4500DE847E /* HLLNetWorkMonitorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69C525806C4500DE847E /* HLLNetWorkMonitorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A6A0725806C4500DE847E /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69CA25806C4500DE847E /* NSData+GZIP.h */; };
+		077A6A0825806C4500DE847E /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69CB25806C4500DE847E /* NSData+GZIP.m */; };
+		077A6A0925806C4500DE847E /* HLLNetworkMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69CC25806C4500DE847E /* HLLNetworkMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077A6A0A25806C4500DE847E /* HLLNetUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69CE25806C4500DE847E /* HLLNetUtils.m */; };
+		077A6A0B25806C4500DE847E /* HLLNetUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69CF25806C4500DE847E /* HLLNetUtils.h */; };
+		077A6A0C25806C4500DE847E /* HLLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69D125806C4500DE847E /* HLLProxy.m */; };
+		077A6A0D25806C4500DE847E /* HLLHooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69D225806C4500DE847E /* HLLHooker.h */; };
+		077A6A0E25806C4500DE847E /* HLLURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69D325806C4500DE847E /* HLLURLProtocol.m */; };
+		077A6A0F25806C4500DE847E /* HLLObjectDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69D425806C4500DE847E /* HLLObjectDelegate.h */; };
+		077A6A1025806C4500DE847E /* HLLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69D525806C4500DE847E /* HLLProxy.h */; };
+		077A6A1125806C4500DE847E /* HLLHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69D625806C4500DE847E /* HLLHooker.m */; };
+		077A6A1225806C4500DE847E /* HLLObjectDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69D725806C4500DE847E /* HLLObjectDelegate.m */; };
+		077A6A1325806C4500DE847E /* HLLURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69D825806C4500DE847E /* HLLURLProtocol.h */; };
+		077A6A1425806C4500DE847E /* HLLCommonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69DA25806C4500DE847E /* HLLCommonModel.h */; };
+		077A6A1525806C4500DE847E /* HLLCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69DB25806C4500DE847E /* HLLCommonModel.m */; };
+		077A6A1625806C4500DE847E /* NetworkMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 077A69DD25806C4500DE847E /* NetworkMonitor.xcdatamodeld */; };
+		077A6A1725806C4500DE847E /* HLLBaseData.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69E025806C4500DE847E /* HLLBaseData.h */; };
+		077A6A1825806C4500DE847E /* HLLDataEntiy.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69E125806C4500DE847E /* HLLDataEntiy.m */; };
+		077A6A1925806C4600DE847E /* HLLDataEntiy.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A69E225806C4500DE847E /* HLLDataEntiy.h */; };
+		077A6A1A25806C4600DE847E /* HLLBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69E325806C4500DE847E /* HLLBaseData.m */; };
+		077A6A1F25806C4600DE847E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 077A69E925806C4500DE847E /* Info.plist */; };
+		077A6A2E25806D9500DE847E /* NMData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A6A2A25806D9500DE847E /* NMData+CoreDataProperties.m */; };
+		077A6A2F25806D9500DE847E /* NMData+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A6A2B25806D9500DE847E /* NMData+CoreDataClass.m */; };
+		077A6A3025806D9500DE847E /* NMData+CoreDataClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A6A2C25806D9500DE847E /* NMData+CoreDataClass.h */; };
+		077A6A3125806D9500DE847E /* NMData+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A6A2D25806D9500DE847E /* NMData+CoreDataProperties.h */; };
+		077A6AA3258078D600DE847E /* NSURLSession+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 077A69B325806C4500DE847E /* NSURLSession+Helper.m */; };
 		78E589792125188300C388BC /* HLLNetworkMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E5896F2125188300C388BC /* HLLNetworkMonitor.framework */; };
 		78E5897E2125188300C388BC /* NetworkMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E5897D2125188300C388BC /* NetworkMonitorTests.m */; };
 /* End PBXBuildFile section */
@@ -74,59 +75,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0762189D24F7BE9F00445031 /* HLLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCache.h; sourceTree = "<group>"; };
-		0762189E24F7BE9F00445031 /* HLLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLDataModel.m; sourceTree = "<group>"; };
-		0762189F24F7BE9F00445031 /* HLLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCache.m; sourceTree = "<group>"; };
-		076218A024F7BE9F00445031 /* HLLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLDataModel.h; sourceTree = "<group>"; };
-		076218A124F7BE9F00445031 /* NetworkMonitor.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMonitor.pch; sourceTree = "<group>"; };
-		076218A324F7BE9F00445031 /* NSObject+HLLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLLRuntime.m"; sourceTree = "<group>"; };
-		076218A424F7BE9F00445031 /* NSURLSession+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+Helper.m"; sourceTree = "<group>"; };
-		076218A524F7BE9F00445031 /* NSURL+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Helper.m"; sourceTree = "<group>"; };
-		076218A624F7BE9F00445031 /* NSURLRequest+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+Helper.m"; sourceTree = "<group>"; };
-		076218A724F7BE9F00445031 /* NSHTTPURLResponse+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPURLResponse+Helper.m"; sourceTree = "<group>"; };
-		076218A824F7BE9F00445031 /* HLLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLReachability.m; sourceTree = "<group>"; };
-		076218A924F7BE9F00445031 /* NSURLConnection+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+Helper.h"; sourceTree = "<group>"; };
-		076218AA24F7BE9F00445031 /* NSURLSession+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+Helper.h"; sourceTree = "<group>"; };
-		076218AB24F7BE9F00445031 /* NSObject+HLLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLLRuntime.h"; sourceTree = "<group>"; };
-		076218AC24F7BE9F00445031 /* NSHTTPURLResponse+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+Helper.h"; sourceTree = "<group>"; };
-		076218AD24F7BE9F00445031 /* NSURLRequest+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+Helper.h"; sourceTree = "<group>"; };
-		076218AE24F7BE9F00445031 /* NSURL+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Helper.h"; sourceTree = "<group>"; };
-		076218AF24F7BE9F00445031 /* HLLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLReachability.h; sourceTree = "<group>"; };
-		076218B024F7BE9F00445031 /* NSURLConnection+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Helper.m"; sourceTree = "<group>"; };
-		076218B224F7BE9F00445031 /* HLLConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLConfig.m; sourceTree = "<group>"; };
-		076218B324F7BE9F00445031 /* HLLNetWorkMonitorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLNetWorkMonitorManager.m; sourceTree = "<group>"; };
-		076218B424F7BE9F00445031 /* HLLNetworkMonitorDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetworkMonitorDef.h; sourceTree = "<group>"; };
-		076218B524F7BE9F00445031 /* HLLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLConfig.h; sourceTree = "<group>"; };
-		076218B624F7BE9F00445031 /* HLLNetWorkMonitorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetWorkMonitorManager.h; sourceTree = "<group>"; };
-		076218B824F7BE9F00445031 /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
-		076218B924F7BE9F00445031 /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
-		076218BB24F7BE9F00445031 /* HLLNetUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLNetUtils.m; sourceTree = "<group>"; };
-		076218BC24F7BE9F00445031 /* HLLNetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetUtils.h; sourceTree = "<group>"; };
-		076218BE24F7BE9F00445031 /* HLLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLProxy.m; sourceTree = "<group>"; };
-		076218BF24F7BE9F00445031 /* HLLHooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLHooker.h; sourceTree = "<group>"; };
-		076218C024F7BE9F00445031 /* HLLURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLURLProtocol.m; sourceTree = "<group>"; };
-		076218C124F7BE9F00445031 /* HLLObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLObjectDelegate.h; sourceTree = "<group>"; };
-		076218C224F7BE9F00445031 /* HLLProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLProxy.h; sourceTree = "<group>"; };
-		076218C324F7BE9F00445031 /* HLLHooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLHooker.m; sourceTree = "<group>"; };
-		076218C424F7BE9F00445031 /* HLLObjectDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLObjectDelegate.m; sourceTree = "<group>"; };
-		076218C524F7BE9F00445031 /* HLLURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLURLProtocol.h; sourceTree = "<group>"; };
-		076218C624F7BE9F00445031 /* HLLNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetworkMonitor.h; sourceTree = "<group>"; };
-		076218C824F7BE9F00445031 /* HLLCommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCommonModel.h; sourceTree = "<group>"; };
-		076218C924F7BE9F00445031 /* HLLCommonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCommonModel.m; sourceTree = "<group>"; };
-		076218CC24F7BE9F00445031 /* EagleEye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EagleEye.xcdatamodel; sourceTree = "<group>"; };
-		076218CE24F7BE9F00445031 /* HLLBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLBaseData.h; sourceTree = "<group>"; };
-		076218CF24F7BE9F00445031 /* HLLDataEntiy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLDataEntiy.m; sourceTree = "<group>"; };
-		076218D024F7BE9F00445031 /* HLLDataEntiy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLDataEntiy.h; sourceTree = "<group>"; };
-		076218D124F7BE9F00445031 /* HLLBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLBaseData.m; sourceTree = "<group>"; };
-		076218D324F7BE9F00445031 /* NMData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMData+CoreDataProperties.h"; sourceTree = "<group>"; };
-		076218D424F7BE9F00445031 /* NMData+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMData+CoreDataClass.m"; sourceTree = "<group>"; };
-		076218D524F7BE9F00445031 /* NMData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMData+CoreDataProperties.m"; sourceTree = "<group>"; };
-		076218D624F7BE9F00445031 /* NMData+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMData+CoreDataClass.h"; sourceTree = "<group>"; };
-		076218D724F7BE9F00445031 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0762190D24F8911A00445031 /* HLLPingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLPingManager.h; sourceTree = "<group>"; };
-		0762190E24F8911A00445031 /* HLLPingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLPingManager.m; sourceTree = "<group>"; };
-		0762191124F8937200445031 /* HLLPingTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLPingTester.h; sourceTree = "<group>"; };
-		0762191224F8937200445031 /* HLLPingTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLPingTester.m; sourceTree = "<group>"; };
+		077A69A725806C4400DE847E /* HLLPingTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLPingTester.h; sourceTree = "<group>"; };
+		077A69A825806C4400DE847E /* HLLPingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLPingManager.m; sourceTree = "<group>"; };
+		077A69A925806C4400DE847E /* HLLPingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLPingManager.h; sourceTree = "<group>"; };
+		077A69AA25806C4400DE847E /* HLLPingTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLPingTester.m; sourceTree = "<group>"; };
+		077A69AC25806C4400DE847E /* HLLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCache.h; sourceTree = "<group>"; };
+		077A69AD25806C4400DE847E /* HLLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLDataModel.m; sourceTree = "<group>"; };
+		077A69AE25806C4500DE847E /* HLLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCache.m; sourceTree = "<group>"; };
+		077A69AF25806C4500DE847E /* HLLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLDataModel.h; sourceTree = "<group>"; };
+		077A69B025806C4500DE847E /* NetworkMonitor.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMonitor.pch; sourceTree = "<group>"; };
+		077A69B225806C4500DE847E /* NSObject+HLLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLLRuntime.m"; sourceTree = "<group>"; };
+		077A69B325806C4500DE847E /* NSURLSession+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+Helper.m"; sourceTree = "<group>"; };
+		077A69B425806C4500DE847E /* NSURL+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Helper.m"; sourceTree = "<group>"; };
+		077A69B525806C4500DE847E /* NSURLRequest+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+Helper.m"; sourceTree = "<group>"; };
+		077A69B625806C4500DE847E /* NSHTTPURLResponse+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPURLResponse+Helper.m"; sourceTree = "<group>"; };
+		077A69B725806C4500DE847E /* HLLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLReachability.m; sourceTree = "<group>"; };
+		077A69B825806C4500DE847E /* NSURLConnection+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+Helper.h"; sourceTree = "<group>"; };
+		077A69B925806C4500DE847E /* NSURLSession+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+Helper.h"; sourceTree = "<group>"; };
+		077A69BA25806C4500DE847E /* NSObject+HLLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLLRuntime.h"; sourceTree = "<group>"; };
+		077A69BB25806C4500DE847E /* NSHTTPURLResponse+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+Helper.h"; sourceTree = "<group>"; };
+		077A69BC25806C4500DE847E /* NSURLRequest+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+Helper.h"; sourceTree = "<group>"; };
+		077A69BD25806C4500DE847E /* NSURL+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Helper.h"; sourceTree = "<group>"; };
+		077A69BE25806C4500DE847E /* HLLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLReachability.h; sourceTree = "<group>"; };
+		077A69BF25806C4500DE847E /* NSURLConnection+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+Helper.m"; sourceTree = "<group>"; };
+		077A69C125806C4500DE847E /* HLLConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLConfig.m; sourceTree = "<group>"; };
+		077A69C225806C4500DE847E /* HLLNetWorkMonitorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLNetWorkMonitorManager.m; sourceTree = "<group>"; };
+		077A69C325806C4500DE847E /* HLLNetworkMonitorDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetworkMonitorDef.h; sourceTree = "<group>"; };
+		077A69C425806C4500DE847E /* HLLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLConfig.h; sourceTree = "<group>"; };
+		077A69C525806C4500DE847E /* HLLNetWorkMonitorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetWorkMonitorManager.h; sourceTree = "<group>"; };
+		077A69CA25806C4500DE847E /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		077A69CB25806C4500DE847E /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		077A69CC25806C4500DE847E /* HLLNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetworkMonitor.h; sourceTree = "<group>"; };
+		077A69CE25806C4500DE847E /* HLLNetUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLNetUtils.m; sourceTree = "<group>"; };
+		077A69CF25806C4500DE847E /* HLLNetUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLNetUtils.h; sourceTree = "<group>"; };
+		077A69D125806C4500DE847E /* HLLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLProxy.m; sourceTree = "<group>"; };
+		077A69D225806C4500DE847E /* HLLHooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLHooker.h; sourceTree = "<group>"; };
+		077A69D325806C4500DE847E /* HLLURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLURLProtocol.m; sourceTree = "<group>"; };
+		077A69D425806C4500DE847E /* HLLObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLObjectDelegate.h; sourceTree = "<group>"; };
+		077A69D525806C4500DE847E /* HLLProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLProxy.h; sourceTree = "<group>"; };
+		077A69D625806C4500DE847E /* HLLHooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLHooker.m; sourceTree = "<group>"; };
+		077A69D725806C4500DE847E /* HLLObjectDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLObjectDelegate.m; sourceTree = "<group>"; };
+		077A69D825806C4500DE847E /* HLLURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLURLProtocol.h; sourceTree = "<group>"; };
+		077A69DA25806C4500DE847E /* HLLCommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCommonModel.h; sourceTree = "<group>"; };
+		077A69DB25806C4500DE847E /* HLLCommonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCommonModel.m; sourceTree = "<group>"; };
+		077A69DE25806C4500DE847E /* EagleEye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EagleEye.xcdatamodel; sourceTree = "<group>"; };
+		077A69E025806C4500DE847E /* HLLBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLBaseData.h; sourceTree = "<group>"; };
+		077A69E125806C4500DE847E /* HLLDataEntiy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLDataEntiy.m; sourceTree = "<group>"; };
+		077A69E225806C4500DE847E /* HLLDataEntiy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLDataEntiy.h; sourceTree = "<group>"; };
+		077A69E325806C4500DE847E /* HLLBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLBaseData.m; sourceTree = "<group>"; };
+		077A69E925806C4500DE847E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077A6A2A25806D9500DE847E /* NMData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMData+CoreDataProperties.m"; sourceTree = "<group>"; };
+		077A6A2B25806D9500DE847E /* NMData+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NMData+CoreDataClass.m"; sourceTree = "<group>"; };
+		077A6A2C25806D9500DE847E /* NMData+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMData+CoreDataClass.h"; sourceTree = "<group>"; };
+		077A6A2D25806D9500DE847E /* NMData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NMData+CoreDataProperties.h"; sourceTree = "<group>"; };
 		78E5896F2125188300C388BC /* HLLNetworkMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLLNetworkMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E589782125188300C388BC /* HLLNetworkMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLNetworkMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E5897D2125188300C388BC /* NetworkMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkMonitorTests.m; sourceTree = "<group>"; };
@@ -152,159 +153,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0762189B24F7BE9F00445031 /* NetworkMonitor */ = {
+		077A69A525806C4400DE847E /* NetworkMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				0762190C24F890F400445031 /* Ping */,
-				0762189C24F7BE9F00445031 /* Cache */,
-				076218A124F7BE9F00445031 /* NetworkMonitor.pch */,
-				076218A224F7BE9F00445031 /* Category */,
-				076218B124F7BE9F00445031 /* Config */,
-				076218B724F7BE9F00445031 /* Third */,
-				076218BA24F7BE9F00445031 /* Utils */,
-				076218BD24F7BE9F00445031 /* AOP */,
-				076218C624F7BE9F00445031 /* HLLNetworkMonitor.h */,
-				076218C724F7BE9F00445031 /* Common */,
-				076218CA24F7BE9F00445031 /* Data */,
-				076218D724F7BE9F00445031 /* Info.plist */,
+				077A69A625806C4400DE847E /* Ping */,
+				077A69AB25806C4400DE847E /* Cache */,
+				077A69B025806C4500DE847E /* NetworkMonitor.pch */,
+				077A69B125806C4500DE847E /* Category */,
+				077A69C025806C4500DE847E /* Config */,
+				077A69C625806C4500DE847E /* NMDatabase */,
+				077A69C925806C4500DE847E /* Third */,
+				077A69CC25806C4500DE847E /* HLLNetworkMonitor.h */,
+				077A69CD25806C4500DE847E /* Utils */,
+				077A69D025806C4500DE847E /* AOP */,
+				077A69D925806C4500DE847E /* Common */,
+				077A69DC25806C4500DE847E /* Data */,
+				077A69E925806C4500DE847E /* Info.plist */,
 			);
-			name = NetworkMonitor;
-			path = "../../../Documents/六一/网络/NetworkMonitor/NetworkMonitor";
+			path = NetworkMonitor;
 			sourceTree = "<group>";
 		};
-		0762189C24F7BE9F00445031 /* Cache */ = {
+		077A69A625806C4400DE847E /* Ping */ = {
 			isa = PBXGroup;
 			children = (
-				0762189D24F7BE9F00445031 /* HLLCache.h */,
-				0762189F24F7BE9F00445031 /* HLLCache.m */,
-				076218A024F7BE9F00445031 /* HLLDataModel.h */,
-				0762189E24F7BE9F00445031 /* HLLDataModel.m */,
+				077A69A925806C4400DE847E /* HLLPingManager.h */,
+				077A69A825806C4400DE847E /* HLLPingManager.m */,
+				077A69A725806C4400DE847E /* HLLPingTester.h */,
+				077A69AA25806C4400DE847E /* HLLPingTester.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		077A69AB25806C4400DE847E /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				077A69AF25806C4500DE847E /* HLLDataModel.h */,
+				077A69AD25806C4400DE847E /* HLLDataModel.m */,
+				077A69AC25806C4400DE847E /* HLLCache.h */,
+				077A69AE25806C4500DE847E /* HLLCache.m */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
 		};
-		076218A224F7BE9F00445031 /* Category */ = {
+		077A69B125806C4500DE847E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				076218A324F7BE9F00445031 /* NSObject+HLLRuntime.m */,
-				076218A424F7BE9F00445031 /* NSURLSession+Helper.m */,
-				076218A524F7BE9F00445031 /* NSURL+Helper.m */,
-				076218A624F7BE9F00445031 /* NSURLRequest+Helper.m */,
-				076218A724F7BE9F00445031 /* NSHTTPURLResponse+Helper.m */,
-				076218A824F7BE9F00445031 /* HLLReachability.m */,
-				076218A924F7BE9F00445031 /* NSURLConnection+Helper.h */,
-				076218AA24F7BE9F00445031 /* NSURLSession+Helper.h */,
-				076218AB24F7BE9F00445031 /* NSObject+HLLRuntime.h */,
-				076218AC24F7BE9F00445031 /* NSHTTPURLResponse+Helper.h */,
-				076218AD24F7BE9F00445031 /* NSURLRequest+Helper.h */,
-				076218AE24F7BE9F00445031 /* NSURL+Helper.h */,
-				076218AF24F7BE9F00445031 /* HLLReachability.h */,
-				076218B024F7BE9F00445031 /* NSURLConnection+Helper.m */,
+				077A69BA25806C4500DE847E /* NSObject+HLLRuntime.h */,
+				077A69B225806C4500DE847E /* NSObject+HLLRuntime.m */,
+				077A69B925806C4500DE847E /* NSURLSession+Helper.h */,
+				077A69B325806C4500DE847E /* NSURLSession+Helper.m */,
+				077A69BB25806C4500DE847E /* NSHTTPURLResponse+Helper.h */,
+				077A69B625806C4500DE847E /* NSHTTPURLResponse+Helper.m */,
+				077A69BE25806C4500DE847E /* HLLReachability.h */,
+				077A69B725806C4500DE847E /* HLLReachability.m */,
+				077A69BC25806C4500DE847E /* NSURLRequest+Helper.h */,
+				077A69B525806C4500DE847E /* NSURLRequest+Helper.m */,
+				077A69BD25806C4500DE847E /* NSURL+Helper.h */,
+				077A69B425806C4500DE847E /* NSURL+Helper.m */,
+				077A69B825806C4500DE847E /* NSURLConnection+Helper.h */,
+				077A69BF25806C4500DE847E /* NSURLConnection+Helper.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		076218B124F7BE9F00445031 /* Config */ = {
+		077A69C025806C4500DE847E /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				076218B224F7BE9F00445031 /* HLLConfig.m */,
-				076218B324F7BE9F00445031 /* HLLNetWorkMonitorManager.m */,
-				076218B424F7BE9F00445031 /* HLLNetworkMonitorDef.h */,
-				076218B524F7BE9F00445031 /* HLLConfig.h */,
-				076218B624F7BE9F00445031 /* HLLNetWorkMonitorManager.h */,
+				077A69C425806C4500DE847E /* HLLConfig.h */,
+				077A69C125806C4500DE847E /* HLLConfig.m */,
+				077A69C325806C4500DE847E /* HLLNetworkMonitorDef.h */,
+				077A69C525806C4500DE847E /* HLLNetWorkMonitorManager.h */,
+				077A69C225806C4500DE847E /* HLLNetWorkMonitorManager.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		076218B724F7BE9F00445031 /* Third */ = {
+		077A69C625806C4500DE847E /* NMDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				076218B824F7BE9F00445031 /* NSData+GZIP.h */,
-				076218B924F7BE9F00445031 /* NSData+GZIP.m */,
+			);
+			path = NMDatabase;
+			sourceTree = "<group>";
+		};
+		077A69C925806C4500DE847E /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				077A69CA25806C4500DE847E /* NSData+GZIP.h */,
+				077A69CB25806C4500DE847E /* NSData+GZIP.m */,
 			);
 			path = Third;
 			sourceTree = "<group>";
 		};
-		076218BA24F7BE9F00445031 /* Utils */ = {
+		077A69CD25806C4500DE847E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				076218BB24F7BE9F00445031 /* HLLNetUtils.m */,
-				076218BC24F7BE9F00445031 /* HLLNetUtils.h */,
+				077A69CF25806C4500DE847E /* HLLNetUtils.h */,
+				077A69CE25806C4500DE847E /* HLLNetUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		076218BD24F7BE9F00445031 /* AOP */ = {
+		077A69D025806C4500DE847E /* AOP */ = {
 			isa = PBXGroup;
 			children = (
-				076218BE24F7BE9F00445031 /* HLLProxy.m */,
-				076218BF24F7BE9F00445031 /* HLLHooker.h */,
-				076218C024F7BE9F00445031 /* HLLURLProtocol.m */,
-				076218C124F7BE9F00445031 /* HLLObjectDelegate.h */,
-				076218C224F7BE9F00445031 /* HLLProxy.h */,
-				076218C324F7BE9F00445031 /* HLLHooker.m */,
-				076218C424F7BE9F00445031 /* HLLObjectDelegate.m */,
-				076218C524F7BE9F00445031 /* HLLURLProtocol.h */,
+				077A69D525806C4500DE847E /* HLLProxy.h */,
+				077A69D125806C4500DE847E /* HLLProxy.m */,
+				077A69D225806C4500DE847E /* HLLHooker.h */,
+				077A69D625806C4500DE847E /* HLLHooker.m */,
+				077A69D825806C4500DE847E /* HLLURLProtocol.h */,
+				077A69D325806C4500DE847E /* HLLURLProtocol.m */,
+				077A69D425806C4500DE847E /* HLLObjectDelegate.h */,
+				077A69D725806C4500DE847E /* HLLObjectDelegate.m */,
 			);
 			path = AOP;
 			sourceTree = "<group>";
 		};
-		076218C724F7BE9F00445031 /* Common */ = {
+		077A69D925806C4500DE847E /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				076218C824F7BE9F00445031 /* HLLCommonModel.h */,
-				076218C924F7BE9F00445031 /* HLLCommonModel.m */,
+				077A69DA25806C4500DE847E /* HLLCommonModel.h */,
+				077A69DB25806C4500DE847E /* HLLCommonModel.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		076218CA24F7BE9F00445031 /* Data */ = {
+		077A69DC25806C4500DE847E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				076218CB24F7BE9F00445031 /* NetworkMonitor.xcdatamodeld */,
-				076218CD24F7BE9F00445031 /* Entiy */,
-				076218D224F7BE9F00445031 /* Model */,
+				077A69DD25806C4500DE847E /* NetworkMonitor.xcdatamodeld */,
+				077A69DF25806C4500DE847E /* Entiy */,
+				077A69E425806C4500DE847E /* Model */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		076218CD24F7BE9F00445031 /* Entiy */ = {
+		077A69DF25806C4500DE847E /* Entiy */ = {
 			isa = PBXGroup;
 			children = (
-				076218CE24F7BE9F00445031 /* HLLBaseData.h */,
-				076218CF24F7BE9F00445031 /* HLLDataEntiy.m */,
-				076218D024F7BE9F00445031 /* HLLDataEntiy.h */,
-				076218D124F7BE9F00445031 /* HLLBaseData.m */,
+				077A69E025806C4500DE847E /* HLLBaseData.h */,
+				077A69E125806C4500DE847E /* HLLDataEntiy.m */,
+				077A69E225806C4500DE847E /* HLLDataEntiy.h */,
+				077A69E325806C4500DE847E /* HLLBaseData.m */,
 			);
 			path = Entiy;
 			sourceTree = "<group>";
 		};
-		076218D224F7BE9F00445031 /* Model */ = {
+		077A69E425806C4500DE847E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				076218D324F7BE9F00445031 /* NMData+CoreDataProperties.h */,
-				076218D424F7BE9F00445031 /* NMData+CoreDataClass.m */,
-				076218D524F7BE9F00445031 /* NMData+CoreDataProperties.m */,
-				076218D624F7BE9F00445031 /* NMData+CoreDataClass.h */,
+				077A6A2C25806D9500DE847E /* NMData+CoreDataClass.h */,
+				077A6A2B25806D9500DE847E /* NMData+CoreDataClass.m */,
+				077A6A2D25806D9500DE847E /* NMData+CoreDataProperties.h */,
+				077A6A2A25806D9500DE847E /* NMData+CoreDataProperties.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		0762190C24F890F400445031 /* Ping */ = {
-			isa = PBXGroup;
-			children = (
-				0762190D24F8911A00445031 /* HLLPingManager.h */,
-				0762190E24F8911A00445031 /* HLLPingManager.m */,
-				0762191124F8937200445031 /* HLLPingTester.h */,
-				0762191224F8937200445031 /* HLLPingTester.m */,
-			);
-			path = Ping;
 			sourceTree = "<group>";
 		};
 		78E589652125188300C388BC = {
 			isa = PBXGroup;
 			children = (
-				0762189B24F7BE9F00445031 /* NetworkMonitor */,
+				077A69A525806C4400DE847E /* NetworkMonitor */,
 				78E5897C2125188300C388BC /* NetworkMonitorTests */,
 				78E589702125188300C388BC /* Products */,
 			);
@@ -335,33 +343,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076218E824F7BE9F00445031 /* NSURL+Helper.h in Headers */,
-				0762191324F8937200445031 /* HLLPingTester.h in Headers */,
-				076218ED24F7BE9F00445031 /* HLLNetworkMonitorDef.h in Headers */,
-				076218EE24F7BE9F00445031 /* HLLConfig.h in Headers */,
-				0762190F24F8911A00445031 /* HLLPingManager.h in Headers */,
-				076218EF24F7BE9F00445031 /* HLLNetWorkMonitorManager.h in Headers */,
-				076218FC24F7BE9F00445031 /* HLLNetworkMonitor.h in Headers */,
-				076218E924F7BE9F00445031 /* HLLReachability.h in Headers */,
-				076218D824F7BE9F00445031 /* HLLCache.h in Headers */,
-				076218FB24F7BE9F00445031 /* HLLURLProtocol.h in Headers */,
-				0762190024F7BE9F00445031 /* HLLBaseData.h in Headers */,
-				0762190724F7BE9F00445031 /* NMData+CoreDataClass.h in Headers */,
-				076218F324F7BE9F00445031 /* HLLNetUtils.h in Headers */,
-				076218E424F7BE9F00445031 /* NSURLSession+Helper.h in Headers */,
-				076218E524F7BE9F00445031 /* NSObject+HLLRuntime.h in Headers */,
-				076218FD24F7BE9F00445031 /* HLLCommonModel.h in Headers */,
-				076218F824F7BE9F00445031 /* HLLProxy.h in Headers */,
-				0762190224F7BE9F00445031 /* HLLDataEntiy.h in Headers */,
-				076218E724F7BE9F00445031 /* NSURLRequest+Helper.h in Headers */,
-				076218E324F7BE9F00445031 /* NSURLConnection+Helper.h in Headers */,
-				076218DB24F7BE9F00445031 /* HLLDataModel.h in Headers */,
-				076218F724F7BE9F00445031 /* HLLObjectDelegate.h in Headers */,
-				076218F524F7BE9F00445031 /* HLLHooker.h in Headers */,
-				0762190424F7BE9F00445031 /* NMData+CoreDataProperties.h in Headers */,
-				076218F024F7BE9F00445031 /* NSData+GZIP.h in Headers */,
-				076218E624F7BE9F00445031 /* NSHTTPURLResponse+Helper.h in Headers */,
-				076218DC24F7BE9F00445031 /* NetworkMonitor.pch in Headers */,
+				077A69FE25806C4500DE847E /* NSURL+Helper.h in Headers */,
+				077A69FC25806C4500DE847E /* NSHTTPURLResponse+Helper.h in Headers */,
+				077A69EC25806C4500DE847E /* HLLPingManager.h in Headers */,
+				077A6A0925806C4500DE847E /* HLLNetworkMonitor.h in Headers */,
+				077A6A0325806C4500DE847E /* HLLNetworkMonitorDef.h in Headers */,
+				077A69FB25806C4500DE847E /* NSObject+HLLRuntime.h in Headers */,
+				077A69FF25806C4500DE847E /* HLLReachability.h in Headers */,
+				077A69F925806C4500DE847E /* NSURLConnection+Helper.h in Headers */,
+				077A69FA25806C4500DE847E /* NSURLSession+Helper.h in Headers */,
+				077A6A0425806C4500DE847E /* HLLConfig.h in Headers */,
+				077A69FD25806C4500DE847E /* NSURLRequest+Helper.h in Headers */,
+				077A69EA25806C4500DE847E /* HLLPingTester.h in Headers */,
+				077A6A0525806C4500DE847E /* HLLNetWorkMonitorManager.h in Headers */,
+				077A6A1025806C4500DE847E /* HLLProxy.h in Headers */,
+				077A6A0725806C4500DE847E /* NSData+GZIP.h in Headers */,
+				077A6A3125806D9500DE847E /* NMData+CoreDataProperties.h in Headers */,
+				077A6A0D25806C4500DE847E /* HLLHooker.h in Headers */,
+				077A6A0B25806C4500DE847E /* HLLNetUtils.h in Headers */,
+				077A6A1425806C4500DE847E /* HLLCommonModel.h in Headers */,
+				077A6A0F25806C4500DE847E /* HLLObjectDelegate.h in Headers */,
+				077A69EE25806C4500DE847E /* HLLCache.h in Headers */,
+				077A6A1725806C4500DE847E /* HLLBaseData.h in Headers */,
+				077A6A3025806D9500DE847E /* NMData+CoreDataClass.h in Headers */,
+				077A6A1325806C4500DE847E /* HLLURLProtocol.h in Headers */,
+				077A6A1925806C4600DE847E /* HLLDataEntiy.h in Headers */,
+				077A69F225806C4500DE847E /* NetworkMonitor.pch in Headers */,
+				077A69F125806C4500DE847E /* HLLDataModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077A6A1F25806C4600DE847E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,31 +470,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076218F624F7BE9F00445031 /* HLLURLProtocol.m in Sources */,
-				076218EC24F7BE9F00445031 /* HLLNetWorkMonitorManager.m in Sources */,
-				076218F224F7BE9F00445031 /* HLLNetUtils.m in Sources */,
-				076218FF24F7BE9F00445031 /* NetworkMonitor.xcdatamodeld in Sources */,
-				0762190524F7BE9F00445031 /* NMData+CoreDataClass.m in Sources */,
-				076218FA24F7BE9F00445031 /* HLLObjectDelegate.m in Sources */,
-				076218E024F7BE9F00445031 /* NSURLRequest+Helper.m in Sources */,
-				076218D924F7BE9F00445031 /* HLLDataModel.m in Sources */,
-				076218E124F7BE9F00445031 /* NSHTTPURLResponse+Helper.m in Sources */,
-				076218F124F7BE9F00445031 /* NSData+GZIP.m in Sources */,
-				076218DA24F7BE9F00445031 /* HLLCache.m in Sources */,
-				0762190324F7BE9F00445031 /* HLLBaseData.m in Sources */,
-				0762191424F8937200445031 /* HLLPingTester.m in Sources */,
-				0762191024F8911A00445031 /* HLLPingManager.m in Sources */,
-				076218EB24F7BE9F00445031 /* HLLConfig.m in Sources */,
-				076218EA24F7BE9F00445031 /* NSURLConnection+Helper.m in Sources */,
-				0762190624F7BE9F00445031 /* NMData+CoreDataProperties.m in Sources */,
-				076218FE24F7BE9F00445031 /* HLLCommonModel.m in Sources */,
-				076218DF24F7BE9F00445031 /* NSURL+Helper.m in Sources */,
-				076218E224F7BE9F00445031 /* HLLReachability.m in Sources */,
-				076218F424F7BE9F00445031 /* HLLProxy.m in Sources */,
-				0762190124F7BE9F00445031 /* HLLDataEntiy.m in Sources */,
-				076218DD24F7BE9F00445031 /* NSObject+HLLRuntime.m in Sources */,
-				076218F924F7BE9F00445031 /* HLLHooker.m in Sources */,
-				076218DE24F7BE9F00445031 /* NSURLSession+Helper.m in Sources */,
+				077A6AA3258078D600DE847E /* NSURLSession+Helper.m in Sources */,
+				077A6A0A25806C4500DE847E /* HLLNetUtils.m in Sources */,
+				077A69F625806C4500DE847E /* NSURLRequest+Helper.m in Sources */,
+				077A6A0225806C4500DE847E /* HLLNetWorkMonitorManager.m in Sources */,
+				077A69F725806C4500DE847E /* NSHTTPURLResponse+Helper.m in Sources */,
+				077A69EB25806C4500DE847E /* HLLPingManager.m in Sources */,
+				077A6A2F25806D9500DE847E /* NMData+CoreDataClass.m in Sources */,
+				077A69F525806C4500DE847E /* NSURL+Helper.m in Sources */,
+				077A6A0E25806C4500DE847E /* HLLURLProtocol.m in Sources */,
+				077A6A0125806C4500DE847E /* HLLConfig.m in Sources */,
+				077A6A1525806C4500DE847E /* HLLCommonModel.m in Sources */,
+				077A6A1825806C4500DE847E /* HLLDataEntiy.m in Sources */,
+				077A69F025806C4500DE847E /* HLLCache.m in Sources */,
+				077A6A0825806C4500DE847E /* NSData+GZIP.m in Sources */,
+				077A6A1625806C4500DE847E /* NetworkMonitor.xcdatamodeld in Sources */,
+				077A6A1A25806C4600DE847E /* HLLBaseData.m in Sources */,
+				077A6A2E25806D9500DE847E /* NMData+CoreDataProperties.m in Sources */,
+				077A6A1125806C4500DE847E /* HLLHooker.m in Sources */,
+				077A6A0C25806C4500DE847E /* HLLProxy.m in Sources */,
+				077A69F825806C4500DE847E /* HLLReachability.m in Sources */,
+				077A6A0025806C4500DE847E /* NSURLConnection+Helper.m in Sources */,
+				077A69ED25806C4500DE847E /* HLLPingTester.m in Sources */,
+				077A6A1225806C4500DE847E /* HLLObjectDelegate.m in Sources */,
+				077A69F325806C4500DE847E /* NSObject+HLLRuntime.m in Sources */,
+				077A69EF25806C4500DE847E /* HLLDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,22 +636,26 @@
 		78E589842125188300C388BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2332ATH7DA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "/Users/forest/Documents/六一/网络/NetworkMonitor/NetworkMonitor/NetworkMonitor.pch";
-				INFOPLIST_FILE = "/Users/forest/Documents/六一/网络/NetworkMonitor/NetworkMonitor/Info.plist";
+				GCC_PREFIX_HEADER = /Users/forest/objc_study/NetworkMonitor/NetworkMonitor/NetworkMonitor/NetworkMonitor.pch;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forest.HLL11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ad61v1.drawLiveENT;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -653,22 +666,26 @@
 		78E589852125188300C388BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2332ATH7DA;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "/Users/forest/Documents/六一/网络/NetworkMonitor/NetworkMonitor/NetworkMonitor.pch";
-				INFOPLIST_FILE = "/Users/forest/Documents/六一/网络/NetworkMonitor/NetworkMonitor/Info.plist";
+				GCC_PREFIX_HEADER = /Users/forest/objc_study/NetworkMonitor/NetworkMonitor/NetworkMonitor/NetworkMonitor.pch;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.forest.HLL11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ad61v1.drawLiveENT;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -680,6 +697,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66H8Z5M693;
 				INFOPLIST_FILE = NetworkMonitorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -696,6 +714,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66H8Z5M693;
 				INFOPLIST_FILE = NetworkMonitorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -741,12 +760,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		076218CB24F7BE9F00445031 /* NetworkMonitor.xcdatamodeld */ = {
+		077A69DD25806C4500DE847E /* NetworkMonitor.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				076218CC24F7BE9F00445031 /* EagleEye.xcdatamodel */,
+				077A69DE25806C4500DE847E /* EagleEye.xcdatamodel */,
 			);
-			currentVersion = 076218CC24F7BE9F00445031 /* EagleEye.xcdatamodel */;
+			currentVersion = 077A69DE25806C4500DE847E /* EagleEye.xcdatamodel */;
 			path = NetworkMonitor.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

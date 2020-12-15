@@ -15,8 +15,8 @@ extern NSString *rtpKey;
 extern NSString *rspKey;
 extern NSString *urlKey;
 
-//#define TEST_URL @"https://m.taobao.com"
-#define TEST_URL @"https://apptest.61draw.coma/v1/student/loginV2"
+#define TEST_URL @"https://m.taobao.com"
+//#define TEST_URL @"https://apptest.61draw.coma/v1/student/loginV2"
 //#define TEST_URL @"https://wj.ahga.gov.cn/business-services/h5/remove-car-record"
 //#define TEST_URL @"https://m.taobao.com"
 #define DOWNLOAD_URL @"http://download.voicecloud.cn/ygxt/20180605/85ee0f89-a95f-4424-8abc-4f6243ef79b2.zip"
